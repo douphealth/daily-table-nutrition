@@ -75,3 +75,19 @@
 @media(max-width:360px){#photo-kitchen.pj-has-results .pj-chips{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){#photo-kitchen.pj-has-results .pj-confirm-all{animation:none;transition:none}}
 @media(max-width:480px){#photo-kitchen.pj-has-results .pj-chips{grid-template-columns:minmax(0,1fr)}#photo-kitchen.pj-has-results .pj-chip{min-height:48px;padding-inline:12px}}
+
+/* Pantry recipe-first flow: keep the next action obvious after recognition. */
+#photo-kitchen.pj-has-results .pj-headcopy .pj-eyebrow{letter-spacing:.08em}
+#photo-kitchen.pj-has-results .pj-selection-status{margin:4px 0 0;font-size:var(--fs-sm);color:var(--text-soft)}
+#photo-kitchen.pj-has-results .pj-notice.is-warn{display:grid;gap:10px;padding:14px;border-radius:var(--r-md);background:var(--warn-soft);color:var(--text);line-height:1.5}
+#photo-kitchen.pj-has-results .pj-notice.is-warn p{margin:0}
+#photo-kitchen.pj-has-results .pj-notice.is-warn button{justify-self:start;min-height:42px}
+#photo-kitchen.pj-has-results .pj-results{display:grid;align-content:start;gap:14px}
+#photo-kitchen.pj-has-results .pj-empty{padding:18px;border:1px dashed var(--line-strong);border-radius:var(--r-lg);background:var(--surface);color:var(--text-soft)}
+#photo-kitchen.pj-has-results .pj-create.is-idle{display:flex;gap:12px;padding:18px;border:1px solid var(--line);border-radius:var(--r-lg);background:var(--surface)}
+#photo-kitchen.pj-has-results .pj-create.is-idle h3{margin:0 0 6px}
+#photo-kitchen.pj-has-results .pj-create.is-idle p{margin:0 0 10px}
+#photo-kitchen.pj-has-results .pj-save-optional{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--line-soft)}
+#photo-kitchen.pj-has-results .pj-save-optional>div{display:grid;gap:3px}
+#photo-kitchen.pj-has-results .pj-save-optional small{color:var(--text-soft)}
+@media(min-width:900px){#photo-kitchen.pj-has-results .pj-results{gap:18px}}
