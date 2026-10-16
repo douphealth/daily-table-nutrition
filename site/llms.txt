@@ -1,0 +1,130 @@
+# The Daily Table
+
+> A free meal planner, pantry-to-recipe matcher and grocery list that needs no account. It holds 84 measured recipes (28 adapted from a public recipe collection, 56 original editorial ideas), four editable weekly menus, a photo-assisted ingredient finder and a shopping list. Everything a visitor saves stays in their own browser. No calorie, nutrient or medical claims are made.
+
+## Key pages
+- [Recipes](https://daily-table.gearuptofit.com/recipes/): all 84 recipes with search, meal and time filters
+- [My pantry](https://daily-table.gearuptofit.com/pantry/): choose ingredients, or confirm foods recognised from a photo, to see matching recipes, what is missing and what to use first
+- [Meal plan](https://daily-table.gearuptofit.com/weekly-plan/): four weekly menus, editable, with a one-tap week builder that follows saved diet, time and ingredient-exclusion preferences
+- [Shopping list](https://daily-table.gearuptofit.com/shopping-list/): one grouped list built from the chosen week, with quantities scaled to the portions selected
+- [How it works](https://daily-table.gearuptofit.com/how-it-works/): choose the ingredients you have, shape your week, shop from one organized list and track today on this device.
+
+## Publisher
+- [GearUpToFit](https://gearuptofit.com/): the site that publishes The Daily Table. It also hosts [nutrition guides](https://gearuptofit.com/nutrition/) and [fitness calculators](https://gearuptofit.com/calculators/).
+
+## Sources, standards and limits
+- [About: sources and standards](https://daily-table.gearuptofit.com/about/): How The Daily Table was built: where recipe identities came from, what was editorially adapted, what is not claimed and how photographs are used.
+- [Privacy and food safety](https://daily-table.gearuptofit.com/privacy/): What The Daily Table stores on your device, what leaves your browser, how optional photo recognition works and the food-safety limits of its recipes.
+- [Photo credits](https://daily-table.gearuptofit.com/photo-credits/): each recipe photograph is credited to its photographer with its open licence and original page (84 of 84 recipes have one)
+
+## Guides
+- [Recipe matching](https://daily-table.gearuptofit.com/guides/recipe-matching/): how recipes are matched to the foods a person has, and why nothing is substituted silently
+- [Cook from your pantry](https://daily-table.gearuptofit.com/guides/cook-from-your-pantry/): How to cook from what you already have: select pantry ingredient names, read the match score honestly and use first the foods you marked.
+- [Meal planning](https://daily-table.gearuptofit.com/guides/meal-planning/): A practical meal-planning guide: plan the meals that need a decision, pick a realistic starting menu and build a shopping list from your pantry.
+- [Photo recognition](https://daily-table.gearuptofit.com/guides/photo-recognition/): How optional photo ingredient recognition works: choose a clear photo, correct each suggested food, confirm what you recognize and what a photo cannot show.
+
+## Facts that can be cited
+- Each recipe lists ingredients with measured amounts for one reference portion and a numbered method. Amounts scale in the app; cooking times do not.
+- Times are editorial estimates, not tested totals. The recipes have not been independently kitchen-tested.
+- Safe-temperature guidance links to FoodSafety.gov: 74 C / 165 F for poultry, 71 C / 160 F for ground meat and egg dishes, 63 C / 145 F for fish and shrimp.
+- Photographs show a similar dish, are hosted on this site, and are used under open licences (CC0, public domain, CC BY, CC BY-SA) with credit. They are not evidence of testing or allergen suitability.
+- Optional photo ingredient recognition needs explicit consent. Its suggestions are reviewed by the person before anything is saved, and the app does not store the photo.
+- Diet and ingredient filters only exclude named ingredients. They do not check labels, cross-contact or medical suitability.
+
+## Recipes
+
+### Breakfast
+- [Greek yogurt, oats & banana](https://daily-table.gearuptofit.com/recipes/greek-yogurt-oats-banana/): 4 ingredients, about 5 minutes
+- [Eggs, whole-grain toast & tomato](https://daily-table.gearuptofit.com/recipes/eggs-whole-grain-toast-tomato/): 6 ingredients, about 10 minutes
+- [Apple & walnut oat porridge](https://daily-table.gearuptofit.com/recipes/apple-walnut-oat-porridge/): 4 ingredients, about 10 minutes
+- [Spinach, egg & feta scramble](https://daily-table.gearuptofit.com/recipes/spinach-egg-feta-scramble/): 6 ingredients, about 10 minutes
+- [Feta, tomato & cucumber toast](https://daily-table.gearuptofit.com/recipes/feta-tomato-cucumber-toast/): 7 ingredients, about 5 minutes
+- [Avocado & egg toast](https://daily-table.gearuptofit.com/recipes/avocado-egg-toast/): 5 ingredients, about 15 minutes
+- [Blueberry & walnut porridge](https://daily-table.gearuptofit.com/recipes/blueberry-walnut-porridge/): 4 ingredients, about 12 minutes
+- [Avocado, egg & tomato bowl](https://daily-table.gearuptofit.com/recipes/avocado-egg-tomato-bowl/): 4 ingredients, about 15 minutes
+- [Strawberry, almond & yogurt bowl](https://daily-table.gearuptofit.com/recipes/strawberry-almond-yogurt-bowl/): 4 ingredients, about 5 minutes
+- [Strawberry & oat yogurt parfait](https://daily-table.gearuptofit.com/recipes/strawberry-oat-yogurt-parfait/): 4 ingredients, about 10 minutes
+- [Apple & almond overnight oats](https://daily-table.gearuptofit.com/recipes/apple-almond-overnight-oats/): 4 ingredients, about 5 minutes
+- [Orange & almond oat porridge](https://daily-table.gearuptofit.com/recipes/orange-almond-oat-porridge/): 4 ingredients, about 10 minutes
+- [Apple & peanut butter toast](https://daily-table.gearuptofit.com/recipes/apple-peanut-butter-toast/): 3 ingredients, about 5 minutes
+- [Smashed pea & feta toast](https://daily-table.gearuptofit.com/recipes/smashed-pea-feta-toast/): 5 ingredients, about 10 minutes
+- [Mushroom & kale omelet](https://daily-table.gearuptofit.com/recipes/mushroom-kale-omelet/): 4 ingredients, about 15 minutes
+- [Sweet potato & egg hash](https://daily-table.gearuptofit.com/recipes/sweet-potato-egg-hash/): 5 ingredients, about 30 minutes
+- [Tofu & spinach scramble](https://daily-table.gearuptofit.com/recipes/tofu-spinach-scramble/): 5 ingredients, about 15 minutes
+- [Egg & spinach breakfast wrap](https://daily-table.gearuptofit.com/recipes/egg-spinach-breakfast-wrap/): 5 ingredients, about 10 minutes
+
+### Lunch
+- [Greek lentils with salad & feta](https://daily-table.gearuptofit.com/recipes/greek-lentils-with-salad-feta/): 8 ingredients, about 35 minutes
+- [Lemon chicken tray bake](https://daily-table.gearuptofit.com/recipes/lemon-chicken-tray-bake/): 6 ingredients, about 45 minutes
+- [Oven-baked chicken, rice & vegetables](https://daily-table.gearuptofit.com/recipes/oven-baked-chicken-rice-vegetables/): 6 ingredients, about 50 minutes
+- [White fish, rice & leafy greens](https://daily-table.gearuptofit.com/recipes/white-fish-rice-leafy-greens/): 5 ingredients, about 30 minutes
+- [Greek giant beans & village salad](https://daily-table.gearuptofit.com/recipes/greek-giant-beans-village-salad/): 7 ingredients, about 50 minutes
+- [Lemony oven-baked chickpeas](https://daily-table.gearuptofit.com/recipes/lemony-oven-baked-chickpeas/): 6 ingredients, about 55 minutes
+- [Fasolada — Greek white bean soup](https://daily-table.gearuptofit.com/recipes/fasolada-greek-white-bean-soup/): 7 ingredients, about 50 minutes
+- [Gemista — rice-stuffed vegetables](https://daily-table.gearuptofit.com/recipes/gemista-rice-stuffed-vegetables/): 7 ingredients, about 70 minutes
+- [Baked Greek meat patties & potatoes](https://daily-table.gearuptofit.com/recipes/baked-greek-meat-patties-potatoes/): 6 ingredients, about 45 minutes
+- [Avocado, tomato & cucumber salad](https://daily-table.gearuptofit.com/recipes/avocado-tomato-cucumber-salad/): 5 ingredients, about 10 minutes
+- [Chickpea & avocado lunch bowl](https://daily-table.gearuptofit.com/recipes/chickpea-avocado-lunch-bowl/): 6 ingredients, about 10 minutes
+- [Cooked lentil & cucumber salad](https://daily-table.gearuptofit.com/recipes/cooked-lentil-cucumber-salad/): 6 ingredients, about 12 minutes
+- [Roasted broccoli & chickpea tray](https://daily-table.gearuptofit.com/recipes/roasted-broccoli-chickpea-tray/): 4 ingredients, about 35 minutes
+- [Roasted carrot, walnut & feta plate](https://daily-table.gearuptofit.com/recipes/roasted-carrot-walnut-feta-plate/): 5 ingredients, about 35 minutes
+- [Quinoa, chickpea & cucumber bowl](https://daily-table.gearuptofit.com/recipes/quinoa-chickpea-cucumber-bowl/): 7 ingredients, about 25 minutes
+- [Tuna & white bean salad](https://daily-table.gearuptofit.com/recipes/tuna-white-bean-salad/): 7 ingredients, about 10 minutes
+- [Black bean, corn & avocado wrap](https://daily-table.gearuptofit.com/recipes/black-bean-corn-avocado-wrap/): 6 ingredients, about 15 minutes
+- [Roasted eggplant couscous with feta](https://daily-table.gearuptofit.com/recipes/roasted-eggplant-couscous-with-feta/): 7 ingredients, about 40 minutes
+- [Roast cauliflower & chickpea bowl with tahini](https://daily-table.gearuptofit.com/recipes/roast-cauliflower-chickpea-bowl-with-tahini/): 6 ingredients, about 35 minutes
+- [Kale, apple & walnut salad](https://daily-table.gearuptofit.com/recipes/kale-apple-walnut-salad/): 6 ingredients, about 15 minutes
+- [Spinach, orange & walnut salad](https://daily-table.gearuptofit.com/recipes/spinach-orange-walnut-salad/): 5 ingredients, about 10 minutes
+- [Sweetcorn, tomato & cucumber salad](https://daily-table.gearuptofit.com/recipes/sweetcorn-tomato-cucumber-salad/): 7 ingredients, about 15 minutes
+- [Lemon pea pasta](https://daily-table.gearuptofit.com/recipes/lemon-pea-pasta/): 6 ingredients, about 20 minutes
+- [Mushroom & lentil soup](https://daily-table.gearuptofit.com/recipes/mushroom-lentil-soup/): 7 ingredients, about 35 minutes
+- [Cauliflower & potato soup](https://daily-table.gearuptofit.com/recipes/cauliflower-potato-soup/): 5 ingredients, about 35 minutes
+- [Green bean, potato & tuna salad](https://daily-table.gearuptofit.com/recipes/green-bean-potato-tuna-salad/): 8 ingredients, about 30 minutes
+- [Tomato & mozzarella toast](https://daily-table.gearuptofit.com/recipes/tomato-mozzarella-toast/): 5 ingredients, about 5 minutes
+
+### Snacks
+- [Greek yogurt & seasonal fruit](https://daily-table.gearuptofit.com/recipes/greek-yogurt-seasonal-fruit/): 2 ingredients, about 2 minutes
+- [Banana & tahini toast](https://daily-table.gearuptofit.com/recipes/banana-tahini-toast/): 3 ingredients, about 3 minutes
+- [Banana, oat & milk blender drink](https://daily-table.gearuptofit.com/recipes/banana-oat-milk-blender-drink/): 3 ingredients, about 3 minutes
+- [Village salad with feta & olives](https://daily-table.gearuptofit.com/recipes/village-salad-with-feta-olives/): 8 ingredients, about 7 minutes
+- [Seasonal fruit salad](https://daily-table.gearuptofit.com/recipes/seasonal-fruit-salad/): 2 ingredients, about 5 minutes
+- [Yogurt, fruit & oat smoothie](https://daily-table.gearuptofit.com/recipes/yogurt-fruit-oat-smoothie/): 4 ingredients, about 3 minutes
+- [Greek yogurt, honey & walnuts](https://daily-table.gearuptofit.com/recipes/greek-yogurt-honey-walnuts/): 4 ingredients, about 2 minutes
+- [Blueberry, yogurt & walnut bowl](https://daily-table.gearuptofit.com/recipes/blueberry-yogurt-walnut-bowl/): 3 ingredients, about 5 minutes
+- [Steamed artichoke with lemon](https://daily-table.gearuptofit.com/recipes/steamed-artichoke-with-lemon/): 3 ingredients, about 50 minutes
+- [Lemony chickpea mash & cucumber](https://daily-table.gearuptofit.com/recipes/lemony-chickpea-mash-cucumber/): 4 ingredients, about 10 minutes
+- [Chickpea & tahini dip with carrot sticks](https://daily-table.gearuptofit.com/recipes/chickpea-tahini-dip-with-carrot-sticks/): 6 ingredients, about 10 minutes
+- [Apple slices with peanut butter](https://daily-table.gearuptofit.com/recipes/apple-slices-with-peanut-butter/): 2 ingredients, about 3 minutes
+- [Tuna & cucumber toast](https://daily-table.gearuptofit.com/recipes/tuna-cucumber-toast/): 5 ingredients, about 5 minutes
+- [Sweet potato rounds with avocado](https://daily-table.gearuptofit.com/recipes/sweet-potato-rounds-with-avocado/): 4 ingredients, about 30 minutes
+- [Baked kale crisps](https://daily-table.gearuptofit.com/recipes/baked-kale-crisps/): 2 ingredients, about 20 minutes
+
+### Dinner
+- [Vegetable omelet & whole-grain bread](https://daily-table.gearuptofit.com/recipes/vegetable-omelet-whole-grain-bread/): 5 ingredients, about 12 minutes
+- [Cretan dakos with tomato & feta](https://daily-table.gearuptofit.com/recipes/cretan-dakos-with-tomato-feta/): 5 ingredients, about 6 minutes
+- [Whole-wheat pasta with garden vegetables](https://daily-table.gearuptofit.com/recipes/whole-wheat-pasta-with-garden-vegetables/): 6 ingredients, about 20 minutes
+- [Chicken souvlaki with yogurt & pita](https://daily-table.gearuptofit.com/recipes/chicken-souvlaki-with-yogurt-pita/): 7 ingredients, about 25 minutes
+- [Greek baked fish with tomatoes & potatoes](https://daily-table.gearuptofit.com/recipes/greek-baked-fish-with-tomatoes-potatoes/): 7 ingredients, about 35 minutes
+- [Spanakorizo — Greek spinach rice](https://daily-table.gearuptofit.com/recipes/spanakorizo-greek-spinach-rice/): 6 ingredients, about 30 minutes
+- [Greek trahana soup with feta](https://daily-table.gearuptofit.com/recipes/greek-trahana-soup-with-feta/): 4 ingredients, about 20 minutes
+- [Broccoli & egg skillet](https://daily-table.gearuptofit.com/recipes/broccoli-egg-skillet/): 4 ingredients, about 20 minutes
+- [Lemon broccoli whole-wheat pasta](https://daily-table.gearuptofit.com/recipes/lemon-broccoli-whole-wheat-pasta/): 5 ingredients, about 25 minutes
+- [Warm white bean & tomato toast](https://daily-table.gearuptofit.com/recipes/warm-white-bean-tomato-toast/): 5 ingredients, about 15 minutes
+- [Zucchini & chickpea tomato skillet](https://daily-table.gearuptofit.com/recipes/zucchini-chickpea-tomato-skillet/): 5 ingredients, about 25 minutes
+- [Spinach & chickpeas in tomato](https://daily-table.gearuptofit.com/recipes/spinach-chickpeas-in-tomato/): 5 ingredients, about 25 minutes
+- [Lemon salmon with green beans](https://daily-table.gearuptofit.com/recipes/lemon-salmon-with-green-beans/): 5 ingredients, about 25 minutes
+- [Salmon, sweet potato & broccoli tray bake](https://daily-table.gearuptofit.com/recipes/salmon-sweet-potato-broccoli-tray-bake/): 5 ingredients, about 40 minutes
+- [Garlic shrimp with zucchini & rice](https://daily-table.gearuptofit.com/recipes/garlic-shrimp-with-zucchini-rice/): 7 ingredients, about 25 minutes
+- [Baked shrimp with tomato & feta](https://daily-table.gearuptofit.com/recipes/baked-shrimp-with-tomato-feta/): 8 ingredients, about 30 minutes
+- [Mushroom & lentil pasta](https://daily-table.gearuptofit.com/recipes/mushroom-lentil-pasta/): 8 ingredients, about 30 minutes
+- [Eggplant & tomato bake with mozzarella](https://daily-table.gearuptofit.com/recipes/eggplant-tomato-bake-with-mozzarella/): 7 ingredients, about 55 minutes
+- [Chicken, sweet potato & kale tray bake](https://daily-table.gearuptofit.com/recipes/chicken-sweet-potato-kale-tray-bake/): 6 ingredients, about 45 minutes
+- [Beef & pepper skillet with rice](https://daily-table.gearuptofit.com/recipes/beef-pepper-skillet-with-rice/): 7 ingredients, about 30 minutes
+- [Crisp tofu, broccoli & rice bowl](https://daily-table.gearuptofit.com/recipes/crisp-tofu-broccoli-rice-bowl/): 6 ingredients, about 30 minutes
+- [Quinoa-stuffed peppers with feta](https://daily-table.gearuptofit.com/recipes/quinoa-stuffed-peppers-with-feta/): 7 ingredients, about 55 minutes
+- [Lemon chicken with couscous & zucchini](https://daily-table.gearuptofit.com/recipes/lemon-chicken-with-couscous-zucchini/): 6 ingredients, about 30 minutes
+- [Black bean & sweet potato bowl](https://daily-table.gearuptofit.com/recipes/black-bean-sweet-potato-bowl/): 7 ingredients, about 40 minutes
+
+
+## Version 8 kitchen planning
+The 84 existing catalog recipes and four original menus are retained. A local, deterministic composer provides 11 ingredient-validated kitchen templates using only selected supported food IDs. New kitchen recipes are explicitly labeled and noindex; they are not independently kitchen-tested or clinical nutrition prescriptions. Optional local profiles set portions, food exclusions, ingredient style and time. Thirteen photographs are labeled serving inspiration; all 84 recipes have precise ingredient illustrations, not purported exact cooked-dish photos. Photo analysis requires explicit consent and human review.

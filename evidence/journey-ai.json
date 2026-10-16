@@ -1,0 +1,78 @@
+{
+  "group": "ai",
+  "checks": [
+    {
+      "name": "Five-food local skillet immediately uses all selected foods",
+      "passed": true
+    },
+    {
+      "name": "AI has not run merely because foods were selected",
+      "passed": true
+    },
+    {
+      "name": "Proposed AI batch amounts are visible before consent",
+      "passed": true
+    },
+    {
+      "name": "Exactly one user-requested AI request uses the exact five foods",
+      "passed": true
+    },
+    {
+      "name": "Recipe authorization remains separate from photo security",
+      "passed": true
+    },
+    {
+      "name": "Full returned recipe is displayed without an import/save step",
+      "passed": true
+    },
+    {
+      "name": "Returned proposal is not yet a saved recipe",
+      "passed": true
+    },
+    {
+      "name": "One Save and cook action uses the actual cooking interface",
+      "passed": true
+    },
+    {
+      "name": "All original selected identities remain in saved AI recipe",
+      "passed": true
+    },
+    {
+      "name": "AI recipe save never forces a pantry write",
+      "passed": true
+    },
+    {
+      "name": "In-flight request is held for stale-result check",
+      "passed": true
+    },
+    {
+      "name": "Changing a food cancels the active draft",
+      "passed": true
+    },
+    {
+      "name": "Changed selection cannot save the stale recipe",
+      "passed": true
+    },
+    {
+      "name": "extra result cannot present a validated recipe",
+      "passed": true
+    },
+    {
+      "name": "extra error retains confirmed foods for retry",
+      "passed": true
+    },
+    {
+      "name": "fail result cannot present a validated recipe",
+      "passed": true
+    },
+    {
+      "name": "fail error retains confirmed foods for retry",
+      "passed": true
+    },
+    {
+      "name": "No uncaught application errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

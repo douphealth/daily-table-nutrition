@@ -1,0 +1,17 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(self), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://challenges.cloudflare.com https://cloudflareinsights.com; worker-src 'self'; frame-ancestors 'none'; frame-src https://challenges.cloudflare.com; form-action 'self'
+/assets/*
+  Cache-Control: public, max-age=3600, must-revalidate
+/sw.js
+  Cache-Control: no-cache
+
+/api/*
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow
+
+/assets/analytics-config.json
+  Cache-Control: no-store

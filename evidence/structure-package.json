@@ -1,0 +1,1008 @@
+{
+  "version": "15.5.1",
+  "baselineVersion": "15.5.0",
+  "baselineSHA256": "1d7c49e27f223dc51c472e52afc5688de02a157b487e50a89a09506b4a877230",
+  "deployment": "daily-table-v15.5.1-cloudflare-upload.zip",
+  "deploymentBytes": 54793070,
+  "deploymentSHA256": "c747526e0dabbd0d34234039c83f280d62b28597ade3a2b683a823e2610b03d4",
+  "files": 861,
+  "htmlPages": 193,
+  "imageFilesPreserved": 645,
+  "imageBytesPreserved": 52997608,
+  "originalRecipes": 84,
+  "localReferencesChecked": 19110,
+  "missingLocalPaths": [],
+  "dynamicFragmentsNotStaticallyProved": [
+    {
+      "source": "404.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "weekly-plan/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "shopping-list/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "pantry/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "settings/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "about/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "photo-credits/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "family-planner/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "cook/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "how-it-works/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "privacy/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "today/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "guides/cook-from-your-pantry/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "guides/recipe-matching/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "guides/photo-recognition/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "guides/meal-planning/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "guides/ai-recipes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/omelet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickpea-avocado-lunch-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/meatballs/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/roast-cauliflower-chickpea-bowl-with-tahini/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-yogurt-oats-banana/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/whole-wheat-pasta-with-garden-vegetables/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinach-chickpeas-in-tomato/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-baked-fish-with-tomatoes-potatoes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/porridge/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/fruitSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/bakedFish/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/baked-shrimp-with-tomato-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tunaCucumberToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocado-egg-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tomato-mozzarella-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickenSouvlaki/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/garlicShrimpZucchiniRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cauliflower-potato-soup/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocadoEggBowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-lentils-with-salad-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/garlic-shrimp-with-zucchini-rice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroom-lentil-pasta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/peanutButterAppleToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/trahana/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/carrotWalnutSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickenSweetPotatoKaleTray/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/bananaToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinachChickpeaPan/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/fetaToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/bakedKaleCrisps/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/appleAlmondOvernightOats/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/quick-greek-dinners/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/quinoa-chickpea-cucumber-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/scramble/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tofuBroccoliRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/zucchini-chickpea-tomato-skillet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinach-egg-feta-scramble/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lentilCucumberSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemon-chicken-with-couscous-zucchini/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/broccoliEggSkillet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/baked-greek-meat-patties-potatoes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/whiteBeanToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greenBeanPotatoTunaSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/smashed-pea-feta-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/strawberryOatParfait/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/pastaVeg/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickpea-tahini-dip-with-carrot-sticks/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/banana-oat-milk-blender-drink/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tunaWhiteBeanSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggSpinachWrap/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/shrimpTomatoFeta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blueberry-walnut-porridge/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/salmonSweetPotatoBroccoliTray/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/appleSlicesPeanutButter/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/yogurt-fruit-oat-smoothie/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/quinoa-stuffed-peppers-with-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/broccoliChickpeaTray/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tuna-cucumber-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemonArtichoke/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/dakos/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/quinoaStuffedPeppers/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemon-chicken-tray-bake/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lentils/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/beef-pepper-skillet-with-rice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/black-bean-corn-avocado-wrap/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cauliflowerPotatoSoup/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cauliflowerChickpeaTahini/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/gigantes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/feta-tomato-cucumber-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/green-bean-potato-tuna-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggplant-tomato-bake-with-mozzarella/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinachOrangeWalnutSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/apple-slices-with-peanut-butter/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/roasted-carrot-walnut-feta-plate/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blackBeanSweetPotatoBowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/strawberry-almond-yogurt-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tofuSpinachScramble/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/beefPepperRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/strawberryAlmondYogurt/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/milkRecovery/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocado-egg-tomato-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chicken-sweet-potato-kale-tray-bake/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/zucchiniChickpeaPan/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/orangeAlmondPorridge/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggplantTomatoMozzarellaBake/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spanakorizo-greek-spinach-rice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroom-lentil-soup/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/gemista/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/white-fish-rice-leafy-greens/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/fasolada/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/sweetcorn-tomato-cucumber-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/salmon-sweet-potato-broccoli-tray-bake/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemony-chickpea-mash-cucumber/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroomKaleOmelet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/egg-spinach-breakfast-wrap/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blueberryOats/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggplantCouscousFeta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blueberryYogurt/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/sweet-potato-egg-hash/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tofu-spinach-scramble/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cornTomatoSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-yogurt-honey-walnuts/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/sweetPotatoAvocadoRounds/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/broccoli-egg-skillet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/orange-almond-oat-porridge/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/apple-peanut-butter-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroomLentilPasta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/apple-walnut-oat-porridge/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chicken-souvlaki-with-yogurt-pita/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/apple-almond-overnight-oats/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/black-bean-sweet-potato-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-trahana-soup-with-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/smashedPeaFetaToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/roasted-eggplant-couscous-with-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/vegetable-omelet-whole-grain-bread/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemonSalmonGreenBeans/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/seasonal-fruit-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocado-tomato-cucumber-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/oven-baked-chicken-rice-vegetables/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tuna-white-bean-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/strawberry-oat-yogurt-parfait/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/smoothie/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/sweetPotatoEggHash/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/baked-kale-crisps/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/kaleAppleWalnutSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/yogSnack/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/banana-tahini-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/crisp-tofu-broccoli-rice-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/fishRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/fasolada-greek-white-bean-soup/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemon-broccoli-whole-wheat-pasta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/sweet-potato-rounds-with-avocado/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/steamed-artichoke-with-lemon/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/tomatoMozzarellaToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinachRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemonChickenCouscous/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/warm-white-bean-tomato-toast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/no-cook-recipes/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/quinoaChickpeaBowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/peaPastaLemon/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blackBeanCornWrap/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggs-whole-grain-toast-tomato/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickenTray/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickpeaAvocadoSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/blueberry-yogurt-walnut-bowl/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-giant-beans-village-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/village-salad-with-feta-olives/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemony-oven-baked-chickpeas/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemon-salmon-with-green-beans/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/kale-apple-walnut-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greek-yogurt-seasonal-fruit/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocadoEggToast/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/yogHoney/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/oats/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroom-kale-omelet/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/revithia/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickpeaTahiniDip/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/spinach-orange-walnut-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/greekSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/gemista-rice-stuffed-vegetables/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemonChickpeaMash/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/lemon-pea-pasta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/mushroomLentilSoup/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/roasted-broccoli-chickpea-tray/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/broccoliLemonPasta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/eggs/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/avocadoTomatoSalad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/chickenRice/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cretan-dakos-with-tomato-feta/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "recipes/cooked-lentil-cucumber-salad/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "weekly-plan/menu-2/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "weekly-plan/menu-4/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "weekly-plan/menu-3/index.html",
+      "reference": "/pantry/#scan"
+    },
+    {
+      "source": "weekly-plan/menu-1/index.html",
+      "reference": "/pantry/#scan"
+    }
+  ],
+  "javascriptSyntaxChecks": 11,
+  "serviceWorkerAssets": 260,
+  "removedPaths": [
+    "assets/chunks/photo-journey-RID4QPEM.js",
+    "assets/fonts/fraunces-latin-italic.woff2",
+    "assets/fonts/fraunces-latin.woff2",
+    "assets/fonts/inter-greek.woff2",
+    "assets/fonts/inter-latin.woff2"
+  ],
+  "addedPaths": [
+    "assets/chunks/photo-journey-15.5.1.js"
+  ],
+  "changedPaths": [
+    "404.html",
+    "_worker.js",
+    "about/index.html",
+    "assets/app-v15.css",
+    "assets/chunks/chunk-O3VEKXW7.js",
+    "assets/content-manifest.json",
+    "assets/data.json",
+    "assets/site.js",
+    "cook/index.html",
+    "family-planner/index.html",
+    "guides/ai-recipes/index.html",
+    "guides/cook-from-your-pantry/index.html",
+    "guides/meal-planning/index.html",
+    "guides/photo-recognition/index.html",
+    "guides/recipe-matching/index.html",
+    "how-it-works/index.html",
+    "index.html",
+    "pantry/index.html",
+    "photo-credits/index.html",
+    "privacy/index.html",
+    "recipes/apple-almond-overnight-oats/index.html",
+    "recipes/apple-peanut-butter-toast/index.html",
+    "recipes/apple-slices-with-peanut-butter/index.html",
+    "recipes/apple-walnut-oat-porridge/index.html",
+    "recipes/appleAlmondOvernightOats/index.html",
+    "recipes/appleSlicesPeanutButter/index.html",
+    "recipes/avocado-egg-toast/index.html",
+    "recipes/avocado-egg-tomato-bowl/index.html",
+    "recipes/avocado-tomato-cucumber-salad/index.html",
+    "recipes/avocadoEggBowl/index.html",
+    "recipes/avocadoEggToast/index.html",
+    "recipes/avocadoTomatoSalad/index.html",
+    "recipes/baked-greek-meat-patties-potatoes/index.html",
+    "recipes/baked-kale-crisps/index.html",
+    "recipes/baked-shrimp-with-tomato-feta/index.html",
+    "recipes/bakedFish/index.html",
+    "recipes/bakedKaleCrisps/index.html",
+    "recipes/banana-oat-milk-blender-drink/index.html",
+    "recipes/banana-tahini-toast/index.html",
+    "recipes/bananaToast/index.html",
+    "recipes/beef-pepper-skillet-with-rice/index.html",
+    "recipes/beefPepperRice/index.html",
+    "recipes/black-bean-corn-avocado-wrap/index.html",
+    "recipes/black-bean-sweet-potato-bowl/index.html",
+    "recipes/blackBeanCornWrap/index.html",
+    "recipes/blackBeanSweetPotatoBowl/index.html",
+    "recipes/blueberry-walnut-porridge/index.html",
+    "recipes/blueberry-yogurt-walnut-bowl/index.html",
+    "recipes/blueberryOats/index.html",
+    "recipes/blueberryYogurt/index.html",
+    "recipes/broccoli-egg-skillet/index.html",
+    "recipes/broccoliChickpeaTray/index.html",
+    "recipes/broccoliEggSkillet/index.html",
+    "recipes/broccoliLemonPasta/index.html",
+    "recipes/carrotWalnutSalad/index.html",
+    "recipes/cauliflower-potato-soup/index.html",
+    "recipes/cauliflowerChickpeaTahini/index.html",
+    "recipes/cauliflowerPotatoSoup/index.html",
+    "recipes/chicken-souvlaki-with-yogurt-pita/index.html",
+    "recipes/chicken-sweet-potato-kale-tray-bake/index.html",
+    "recipes/chickenRice/index.html",
+    "recipes/chickenSouvlaki/index.html",
+    "recipes/chickenSweetPotatoKaleTray/index.html",
+    "recipes/chickenTray/index.html",
+    "recipes/chickpea-avocado-lunch-bowl/index.html",
+    "recipes/chickpea-tahini-dip-with-carrot-sticks/index.html",
+    "recipes/chickpeaAvocadoSalad/index.html",
+    "recipes/chickpeaTahiniDip/index.html",
+    "recipes/cooked-lentil-cucumber-salad/index.html",
+    "recipes/cornTomatoSalad/index.html",
+    "recipes/cretan-dakos-with-tomato-feta/index.html",
+    "recipes/crisp-tofu-broccoli-rice-bowl/index.html",
+    "recipes/dakos/index.html",
+    "recipes/egg-spinach-breakfast-wrap/index.html",
+    "recipes/eggSpinachWrap/index.html",
+    "recipes/eggplant-tomato-bake-with-mozzarella/index.html",
+    "recipes/eggplantCouscousFeta/index.html",
+    "recipes/eggplantTomatoMozzarellaBake/index.html",
+    "recipes/eggs-whole-grain-toast-tomato/index.html",
+    "recipes/eggs/index.html",
+    "recipes/fasolada-greek-white-bean-soup/index.html",
+    "recipes/fasolada/index.html",
+    "recipes/feta-tomato-cucumber-toast/index.html",
+    "recipes/fetaToast/index.html",
+    "recipes/fishRice/index.html",
+    "recipes/fruitSalad/index.html",
+    "recipes/garlic-shrimp-with-zucchini-rice/index.html",
+    "recipes/garlicShrimpZucchiniRice/index.html",
+    "recipes/gemista-rice-stuffed-vegetables/index.html",
+    "recipes/gemista/index.html",
+    "recipes/gigantes/index.html",
+    "recipes/greek-baked-fish-with-tomatoes-potatoes/index.html",
+    "recipes/greek-giant-beans-village-salad/index.html",
+    "recipes/greek-lentils-with-salad-feta/index.html",
+    "recipes/greek-trahana-soup-with-feta/index.html",
+    "recipes/greek-yogurt-honey-walnuts/index.html",
+    "recipes/greek-yogurt-oats-banana/index.html",
+    "recipes/greek-yogurt-seasonal-fruit/index.html",
+    "recipes/greekSalad/index.html",
+    "recipes/green-bean-potato-tuna-salad/index.html",
+    "recipes/greenBeanPotatoTunaSalad/index.html",
+    "recipes/index.html",
+    "recipes/kale-apple-walnut-salad/index.html",
+    "recipes/kaleAppleWalnutSalad/index.html",
+    "recipes/lemon-broccoli-whole-wheat-pasta/index.html",
+    "recipes/lemon-chicken-tray-bake/index.html",
+    "recipes/lemon-chicken-with-couscous-zucchini/index.html",
+    "recipes/lemon-pea-pasta/index.html",
+    "recipes/lemon-salmon-with-green-beans/index.html",
+    "recipes/lemonArtichoke/index.html",
+    "recipes/lemonChickenCouscous/index.html",
+    "recipes/lemonChickpeaMash/index.html",
+    "recipes/lemonSalmonGreenBeans/index.html",
+    "recipes/lemony-chickpea-mash-cucumber/index.html",
+    "recipes/lemony-oven-baked-chickpeas/index.html",
+    "recipes/lentilCucumberSalad/index.html",
+    "recipes/lentils/index.html",
+    "recipes/meatballs/index.html",
+    "recipes/milkRecovery/index.html",
+    "recipes/mushroom-kale-omelet/index.html",
+    "recipes/mushroom-lentil-pasta/index.html",
+    "recipes/mushroom-lentil-soup/index.html",
+    "recipes/mushroomKaleOmelet/index.html",
+    "recipes/mushroomLentilPasta/index.html",
+    "recipes/mushroomLentilSoup/index.html",
+    "recipes/no-cook-recipes/index.html",
+    "recipes/oats/index.html",
+    "recipes/omelet/index.html",
+    "recipes/orange-almond-oat-porridge/index.html",
+    "recipes/orangeAlmondPorridge/index.html",
+    "recipes/oven-baked-chicken-rice-vegetables/index.html",
+    "recipes/pastaVeg/index.html",
+    "recipes/peaPastaLemon/index.html",
+    "recipes/peanutButterAppleToast/index.html",
+    "recipes/porridge/index.html",
+    "recipes/quick-greek-dinners/index.html",
+    "recipes/quinoa-chickpea-cucumber-bowl/index.html",
+    "recipes/quinoa-stuffed-peppers-with-feta/index.html",
+    "recipes/quinoaChickpeaBowl/index.html",
+    "recipes/quinoaStuffedPeppers/index.html",
+    "recipes/revithia/index.html",
+    "recipes/roast-cauliflower-chickpea-bowl-with-tahini/index.html",
+    "recipes/roasted-broccoli-chickpea-tray/index.html",
+    "recipes/roasted-carrot-walnut-feta-plate/index.html",
+    "recipes/roasted-eggplant-couscous-with-feta/index.html",
+    "recipes/salmon-sweet-potato-broccoli-tray-bake/index.html",
+    "recipes/salmonSweetPotatoBroccoliTray/index.html",
+    "recipes/scramble/index.html",
+    "recipes/seasonal-fruit-salad/index.html",
+    "recipes/shrimpTomatoFeta/index.html",
+    "recipes/smashed-pea-feta-toast/index.html",
+    "recipes/smashedPeaFetaToast/index.html",
+    "recipes/smoothie/index.html",
+    "recipes/spanakorizo-greek-spinach-rice/index.html",
+    "recipes/spinach-chickpeas-in-tomato/index.html",
+    "recipes/spinach-egg-feta-scramble/index.html",
+    "recipes/spinach-orange-walnut-salad/index.html",
+    "recipes/spinachChickpeaPan/index.html",
+    "recipes/spinachOrangeWalnutSalad/index.html",
+    "recipes/spinachRice/index.html",
+    "recipes/steamed-artichoke-with-lemon/index.html",
+    "recipes/strawberry-almond-yogurt-bowl/index.html",
+    "recipes/strawberry-oat-yogurt-parfait/index.html",
+    "recipes/strawberryAlmondYogurt/index.html",
+    "recipes/strawberryOatParfait/index.html",
+    "recipes/sweet-potato-egg-hash/index.html",
+    "recipes/sweet-potato-rounds-with-avocado/index.html",
+    "recipes/sweetPotatoAvocadoRounds/index.html",
+    "recipes/sweetPotatoEggHash/index.html",
+    "recipes/sweetcorn-tomato-cucumber-salad/index.html",
+    "recipes/tofu-spinach-scramble/index.html",
+    "recipes/tofuBroccoliRice/index.html",
+    "recipes/tofuSpinachScramble/index.html",
+    "recipes/tomato-mozzarella-toast/index.html",
+    "recipes/tomatoMozzarellaToast/index.html",
+    "recipes/trahana/index.html",
+    "recipes/tuna-cucumber-toast/index.html",
+    "recipes/tuna-white-bean-salad/index.html",
+    "recipes/tunaCucumberToast/index.html",
+    "recipes/tunaWhiteBeanSalad/index.html",
+    "recipes/vegetable-omelet-whole-grain-bread/index.html",
+    "recipes/village-salad-with-feta-olives/index.html",
+    "recipes/warm-white-bean-tomato-toast/index.html",
+    "recipes/white-fish-rice-leafy-greens/index.html",
+    "recipes/whiteBeanToast/index.html",
+    "recipes/whole-wheat-pasta-with-garden-vegetables/index.html",
+    "recipes/yogHoney/index.html",
+    "recipes/yogSnack/index.html",
+    "recipes/yogurt-fruit-oat-smoothie/index.html",
+    "recipes/zucchini-chickpea-tomato-skillet/index.html",
+    "recipes/zucchiniChickpeaPan/index.html",
+    "settings/index.html",
+    "shopping-list/index.html",
+    "sw.js",
+    "today/index.html",
+    "weekly-plan/index.html",
+    "weekly-plan/menu-1/index.html",
+    "weekly-plan/menu-2/index.html",
+    "weekly-plan/menu-3/index.html",
+    "weekly-plan/menu-4/index.html"
+  ],
+  "zipCRC": "passed",
+  "zipByteComparison": "passed",
+  "narrowCredentialScanFiles": 211,
+  "workerAndSecurity": "Worker changed only build labels. Shared security and AI studio logic unchanged apart from build labels. API routing and HTTP security headers byte-identical.",
+  "scope": "Local syntax, path, archive and content checks. Not live Cloudflare, native storage/PWA, recognition or food-quality proof."
+}

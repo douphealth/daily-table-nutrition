@@ -1,0 +1,70 @@
+{
+  "group": "safety",
+  "checks": [
+    {
+      "name": "Nut exclusion prevents confirming walnuts",
+      "passed": true
+    },
+    {
+      "name": "Hard-excluded ingredients do not reach the recipe",
+      "passed": true
+    },
+    {
+      "name": "Save excludes blocked food and retains household portions",
+      "passed": true
+    },
+    {
+      "name": "Selected unknown food is not silently omitted",
+      "passed": true
+    },
+    {
+      "name": "Unidentified selection offers no exact AI request",
+      "passed": true
+    },
+    {
+      "name": "Unknown selected food stays a note, not fake inventory",
+      "passed": true
+    },
+    {
+      "name": "ingredients/unusable never yields confirmed food",
+      "passed": true
+    },
+    {
+      "name": "ingredients/unusable never offers a recipe as recognized",
+      "passed": true
+    },
+    {
+      "name": "non_food/good never yields confirmed food",
+      "passed": true
+    },
+    {
+      "name": "non_food/good never offers a recipe as recognized",
+      "passed": true
+    },
+    {
+      "name": "Prepared-dish observation is not an exact ingredient identity",
+      "passed": true
+    },
+    {
+      "name": "Prepared dish saves only a note",
+      "passed": true
+    },
+    {
+      "name": "Failed persistence keeps original durable kitchen intact",
+      "passed": true
+    },
+    {
+      "name": "Failed persistence cannot claim durable saved success",
+      "passed": true
+    },
+    {
+      "name": "Recipe stays usable after storage failure",
+      "passed": true
+    },
+    {
+      "name": "No uncaught application errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

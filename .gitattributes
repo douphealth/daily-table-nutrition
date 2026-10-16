@@ -1,0 +1,2 @@
+# Preserve the exact released file bytes, including Windows checkouts.
+* -text

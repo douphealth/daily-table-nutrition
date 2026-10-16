@@ -1,0 +1,98 @@
+{
+  "group": "flow",
+  "checks": [
+    {
+      "name": "Recognition leaves every observation unconfirmed",
+      "passed": true
+    },
+    {
+      "name": "No recipe claimed before a human confirms food",
+      "passed": true
+    },
+    {
+      "name": "Recognition makes no pantry writes",
+      "passed": true
+    },
+    {
+      "name": "One bulk-confirm action reveals a complete collection recipe",
+      "passed": true
+    },
+    {
+      "name": "Full method is visible without View/Search/Save clicks",
+      "passed": true
+    },
+    {
+      "name": "Recipe ingredient amounts shown immediately",
+      "passed": true
+    },
+    {
+      "name": "Reading matches still makes no pantry/recipe write",
+      "passed": true
+    },
+    {
+      "name": "Matching submits no additional AI request",
+      "passed": true
+    },
+    {
+      "name": "Immediate recipe portions scale actual ingredient amounts",
+      "passed": true
+    },
+    {
+      "name": "Optional save adds all selected canonical foods",
+      "passed": true
+    },
+    {
+      "name": "Save keeps selected foods checked",
+      "passed": true
+    },
+    {
+      "name": "Save keeps the recipe and portions on screen",
+      "passed": true
+    },
+    {
+      "name": "No manual input receives focus after saving",
+      "passed": true
+    },
+    {
+      "name": "Saved button prevents redundant saves",
+      "passed": true
+    },
+    {
+      "name": "Saved selected foods survive a fresh document",
+      "passed": true
+    },
+    {
+      "name": "Bulk confirm does not select an uncertain food",
+      "passed": true
+    },
+    {
+      "name": "Exact local recipe is available without saving",
+      "passed": true
+    },
+    {
+      "name": "Local recipe enters real cook mode without a pantry-save detour",
+      "passed": true
+    },
+    {
+      "name": "Starting cooking does not infer or deduct stock",
+      "passed": true
+    },
+    {
+      "name": "Individual selection refreshes recipe instantly",
+      "passed": true
+    },
+    {
+      "name": "Keyboard focus remains on the toggled food",
+      "passed": true
+    },
+    {
+      "name": "Clear selection removes the recipe without writing stock",
+      "passed": true
+    },
+    {
+      "name": "No uncaught application errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

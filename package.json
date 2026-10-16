@@ -1,0 +1,16 @@
+{
+  "name": "daily-table-nutrition",
+  "version": "15.5.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/verify-site.mjs && node tests/security.test.mjs",
+    "test:browser": "python scripts/test_browser.py",
+    "test:http": "python scripts/check_http.py",
+    "test:integrity": "node scripts/verify-site.mjs"
+  },
+  "description": "The Daily Table v15.5.1 - verified Cloudflare distribution and repair source",
+  "engines": {
+    "node": ">=22"
+  }
+}

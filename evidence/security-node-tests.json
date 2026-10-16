@@ -1,0 +1,183 @@
+{
+  "scope": "Actual patched Worker; mocked Turnstile/provider APIs; no live model requests.",
+  "passed": 44,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Both public status endpoints declare build and exact host; not claimed verified",
+      "passed": true
+    },
+    {
+      "name": "Server verifies at the official HTTPS API with token/secret; no image/note",
+      "passed": true
+    },
+    {
+      "name": "Siteverify invalid-input-secret classified without secrets",
+      "passed": true
+    },
+    {
+      "name": "Siteverify missing-input-secret classified without secrets",
+      "passed": true
+    },
+    {
+      "name": "Siteverify timeout-or-duplicate classified without secrets",
+      "passed": true
+    },
+    {
+      "name": "Siteverify internal-error classified without secrets",
+      "passed": true
+    },
+    {
+      "name": "Siteverify invalid-input-response classified without secrets",
+      "passed": true
+    },
+    {
+      "name": "Exact hostname remains mandatory",
+      "passed": true
+    },
+    {
+      "name": "Photo token cannot authorize recipe action",
+      "passed": true
+    },
+    {
+      "name": "Recipe token cannot authorize photo action",
+      "passed": true
+    },
+    {
+      "name": "Boolean true required, not a truthy string",
+      "passed": true
+    },
+    {
+      "name": "Null verification response fails closed",
+      "passed": true
+    },
+    {
+      "name": "Network error classified as security unavailable",
+      "passed": true
+    },
+    {
+      "name": "Server timeout distinct from model timeout",
+      "passed": true
+    },
+    {
+      "name": "HTTP error distinct from model error",
+      "passed": true
+    },
+    {
+      "name": "Malformed JSON fails closed without leaking response",
+      "passed": true
+    },
+    {
+      "name": "Oversized verification response rejected",
+      "passed": true
+    },
+    {
+      "name": "Missing secret is an owner configuration error",
+      "passed": true
+    },
+    {
+      "name": "Reject invalid token 0",
+      "passed": true
+    },
+    {
+      "name": "Reject invalid token null",
+      "passed": true
+    },
+    {
+      "name": "Reject invalid token 2049",
+      "passed": true
+    },
+    {
+      "name": "Unknown action rejected",
+      "passed": true
+    },
+    {
+      "name": "No-photo diagnostic succeeds without AI binding or inference",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic validates recipe action separately",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic requires same origin",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic rejects cross-site requests",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic refuses images, not an alternative upload endpoint",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic rejects oversized requests",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic rejects missing keys",
+      "passed": true
+    },
+    {
+      "name": "GET diagnostic does not generate a token or call AI",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic errors have safe references and no token/secret",
+      "passed": true
+    },
+    {
+      "name": "Consumed diagnostic token cannot be reused on validation",
+      "passed": true
+    },
+    {
+      "name": "Diagnostic best-effort burst limit blocks seventh test",
+      "passed": true
+    },
+    {
+      "name": "Photo route blocks verification_configuration before all model calls",
+      "passed": true
+    },
+    {
+      "name": "Photo route blocks verification_expired before all model calls",
+      "passed": true
+    },
+    {
+      "name": "Photo route blocks verification_hostname before all model calls",
+      "passed": true
+    },
+    {
+      "name": "Photo route blocks verification_action before all model calls",
+      "passed": true
+    },
+    {
+      "name": "Photo route distinguishes security timeout, with zero model calls",
+      "passed": true
+    },
+    {
+      "name": "No photo consent means no security or model request",
+      "passed": true
+    },
+    {
+      "name": "Recipe route blocks rejected security before model calls",
+      "passed": true
+    },
+    {
+      "name": "Model configuration and security unchanged except build label",
+      "passed": true
+    },
+    {
+      "name": "All output responses continue no-store and nosniff",
+      "passed": true
+    },
+    {
+      "name": "Accepted photo security reaches the existing AI adapter and returns review-only suggestions",
+      "passed": true
+    },
+    {
+      "name": "Accepted recipe security reaches original validated plan flow",
+      "passed": true
+    }
+  ]
+}

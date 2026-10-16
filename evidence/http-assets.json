@@ -1,0 +1,6 @@
+{
+  "version": "15.5.1",
+  "passed": 857,
+  "failed": 0,
+  "scope": "Local static server byte comparison. Not a Cloudflare deployment, API, HTTPS, CSP or service-worker test."
+}

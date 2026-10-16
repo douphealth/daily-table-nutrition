@@ -1,0 +1,28 @@
+{
+  "version": "15.5.1",
+  "base": "/",
+  "site": "https://daily-table.gearuptofit.com/",
+  "publicPages": 189,
+  "totalPages": 193,
+  "recipes": 84,
+  "photoSources": 13,
+  "bundledPhotos": 84,
+  "preview": false,
+  "source": "douphealth/family-nutrition-os",
+  "sourceInspected": "2026-10-08",
+  "ingredientGuides": 84,
+  "kitchenTemplates": 12,
+  "recipePhotoFiles": 252,
+  "sourceBaseline": "daily-table-v11.0-source-and-tests.zip",
+  "recipeSourceInspected": "2026-10-09",
+  "offlineModules": [
+    "flow-state",
+    "flow-model",
+    "flow-ui",
+    "recipe-foods",
+    "recipe-contract",
+    "recipe-studio"
+  ],
+  "aiRecipeProtocol": "1.0.0",
+  "photoProtocol": "3.0.0"
+}

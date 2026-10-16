@@ -1,0 +1,132 @@
+JOURNEY True
+CHECKED 2
+TEXT STEP 2 · CONFIRM
+
+We found 3 foods
+
+Tap any food to include or leave it out.
+
+tomato
+cucumber
+unidentified herb
+Select all
+Clear
+Edit names
+New photo
+Recipes with your 2 foods
+9 use all of them
+Uses all 2 foods
+9 recipes
+Photo is illustrative
+Best match · Uses all 2
+10 min
+Avocado, tomato & cucumber salad
+Also needs avocado, lemon, olive oil
+Photo is illustrative
+Uses all 2
+10 min
+Chickpea & avocado lunch bowl
+Also needs cooked chickpeas (drained), avocado, lemon…
+Photo is illustrative
+Uses all 2
+12 min
+Cooked lentil & cucumber salad
+Also needs cooked lentils (drained), onion, lemon…
+Photo is illustrative
+Uses all 2
+5 min
+Feta, tomato & cucumber toast
+Also needs whole-grain bread, feta, olives…
+Photo is illustrative
+Uses all 2
+15 min
+Sweetcorn, tomato & cucumber salad
+Also needs sweetcorn, onion, lemon…
+Photo is illustrative
+Uses all 2
+25 min
+Quinoa, chickpea & cucumber bowl
+Also needs quinoa, cooked chickpeas (drained), lemon…
+Show all 9 recipes
+Quick recipes made from exactly your foods
+instant, no AI
+Your selected ingredients
+Uses all 2
+10 min
+Tomato and cucumber salad
+Made from exactly your foods
+
+OR MAKE IT NEW
+
+Want something new?
+
+Create the best simple, healthy recipe with exactly these 2 foods: every food used, nothing added, checked for safety.
+
+Tomato
+Cucumber
+
+Breakfast · 1 portion · Hob & pan + cooking water · up to 10 min
+
+Create my recipe
+Sends food names and amounts (never the photo) to Cloudflare AI. Suggested amounts are for the whole batch; change them in the options.
+Amounts & options
+Close matches
+use most of your foods
+Photo is illustrative
+Uses 1 of 2
+10 min
+Lemony chickpea mash & cucumber
+Also needs cooked chickpeas (drained), lemon, olive oil · leaves out tomato
+Photo is illustrative
+Uses 1 of 2
+15 min
+Avocado, egg & tomato bowl
+Also needs avocado, eggs, olive oil · leaves out cucumber
+Photo is illustrative
+Uses 1 of 2
+20 min
+Greek trahana soup with feta
+Also needs trahana, feta, olive oil · leaves out cucumber
+Photo is illustrative
+Uses 1 of 2
+5 min
+Tomato & mozzarella toast
+Also needs whole-grain bread, mozzarella, fresh herbs… · leaves out cucumber
+Photo is illustrative
+Uses 1 of 2
+5 min
+Tuna & cucumber toast
+Also needs whole-grain bread, canned tuna, lemon… · leaves out tomato
+Photo is illustrative
+Uses 1 of 2
+6 min
+Cretan dakos with tomato & feta
+Also needs barley rusk, feta, olives… · leaves out cucumber
+Add these foods to my kitchen
+Optional. Nothing is saved unless you choose.
+BEFORE [] []
+AFTER ['tomato', 'cucumber'] [{'label': 'tomato', 'form': 'raw', 'foodKey': 'tomato'}, {'label': 'cucumber', 'form': 'raw', 'foodKey': 'cucumber'}]
+CHECKED AFTER 0
+TEXT AFTER STEP 2 · CONFIRM
+
+We found 3 foods
+
+Tap any food to include or leave it out.
+
+tomato
+cucumber
+unidentified herb
+Select all
+Clear
+Edit names
+New photo
+
+Tap the foods you have and recipes appear right here.
+
+Create a new recipe
+
+Tap the foods you have above. Then the app can build the best simple recipe with exactly those foods.
+
+Add these foods to my kitchen
+Optional. Nothing is saved unless you choose.
+PAGEERR []

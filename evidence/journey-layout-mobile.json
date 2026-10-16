@@ -1,0 +1,130 @@
+{
+  "group": "layout-mobile",
+  "checks": [
+    {
+      "name": "320/light no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320/light method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "320/light controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "320/light one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "320/light alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "320/dark no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320/dark method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "320/dark controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "320/dark one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "320/dark alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "390/light no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390/light method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "390/light controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "390/light one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "390/light alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "390/dark no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390/dark method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "390/dark controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "390/dark one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "390/dark alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "430/light no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "430/light method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "430/light controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "430/light one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "430/light alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "430/dark no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "430/dark method is expanded without a button",
+      "passed": true
+    },
+    {
+      "name": "430/dark controls have usable touch targets",
+      "passed": true
+    },
+    {
+      "name": "430/dark one optional save, after the actual recipe",
+      "passed": true
+    },
+    {
+      "name": "430/dark alternative recipe opens in place",
+      "passed": true
+    },
+    {
+      "name": "No uncaught application errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

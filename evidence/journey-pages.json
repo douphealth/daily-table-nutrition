@@ -1,0 +1,66 @@
+{
+  "group": "pages",
+  "checks": [
+    {
+      "name": "index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "pantry/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "pantry/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "recipes/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "recipes/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "today/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "today/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "weekly-plan/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "weekly-plan/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "shopping-list/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "shopping-list/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "settings/index.html still boots",
+      "passed": true
+    },
+    {
+      "name": "settings/index.html fits phone width",
+      "passed": true
+    },
+    {
+      "name": "No uncaught application errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
