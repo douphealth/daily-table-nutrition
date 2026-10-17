@@ -1,0 +1,19 @@
+/* Printable recipe sheet. Loaded only on the pantry page. */
+@page{size:auto;margin:14mm}
+@media print{
+ html,body{background:#fff!important;color:#111!important;min-height:0!important}
+ body *{visibility:hidden!important}
+ #photo-kitchen,#photo-kitchen .pj,#photo-kitchen .pj-results{position:static!important;display:block!important;overflow:visible!important}
+ #photo-kitchen .pj-instant,#photo-kitchen .pj-instant *,#photo-kitchen #pj-result,#photo-kitchen #pj-result *{visibility:visible!important}
+ #photo-kitchen .pj-instant,#photo-kitchen #pj-result{position:absolute!important;top:0!important;left:0!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important;background:#fff!important;color:#111!important;break-inside:auto!important}
+ #photo-kitchen .pj-instant:before{display:none!important}
+ #photo-kitchen .pj-dish-top{break-inside:avoid!important;background:#fff!important;color:#111!important;box-shadow:none!important}
+ #photo-kitchen .pj-dish-intro h3,#photo-kitchen #pj-result .pj-result-title{font-size:24pt!important;line-height:1.15!important;color:#111!important}
+ #photo-kitchen .pj-recipe-columns,#photo-kitchen .pj-two{display:grid!important;grid-template-columns:1fr 1fr!important;gap:8mm!important;align-items:start!important}
+ #photo-kitchen .pj-recipe-columns>section,#photo-kitchen .pj-two>section{break-inside:avoid!important;padding:0!important;border:0!important;background:#fff!important}
+ #photo-kitchen .pj-ing li,#photo-kitchen .pj-steps li,#photo-kitchen .pj-health li{break-inside:avoid!important;color:#111!important}
+ #photo-kitchen .pj-instant-actions,#photo-kitchen .pj-primary-cook,#photo-kitchen .pj-result-actions,#photo-kitchen .pj-result-tag,#photo-kitchen .pj-add-chip,#photo-kitchen .pj-full-details summary,#photo-kitchen .pj-recipe-notes summary{display:none!important}
+ #photo-kitchen .pj-fine,#photo-kitchen .pj-note{color:#333!important}
+ #photo-kitchen a{color:#111!important;text-decoration:none!important}
+ #photo-kitchen .pj-portions{color:#111!important}
+}
