@@ -1,43 +1,34 @@
-# The Daily Table 15.5.1 - deployment and rollback
+# The Daily Table 15.20.0 - deployment and rollback
 
 ## Correct upload
 
-Use **daily-table-v15.5.1-cloudflare-upload.zip**. This is the full app, not a patch, repair builder or source-only archive. The root contains index.html, _worker.js, _routes.json, _headers, _redirects, sw.js, manifest.webmanifest, assets and all existing page directories.
+Use **daily-table-v15.20.0-cloudflare-upload.zip** (SHA-256 `ec59b1d7c5b5aebe67d903640dc27f4cfb6107da454b175dd567733d3cc64f6b`), or a ZIP of the contents of `site/`. It is the full app: the root contains index.html, _worker.js, _routes.json, _headers, _redirects, sw.js, manifest.webmanifest, assets and every page directory. 880 files, of which 645 are images.
 
-The deployment contains 861 files and is 54,793,070 bytes (54.79 MB decimal). It preserves all 645 original v15.5 image files and all original recipe/photo data.
+Do not upload this repository, the `source/` folder or a source archive as the website.
 
 ## Before deployment
 
-Export each important kitchen profile from the currently working site and keep the original v15.5 ZIP and previous successful deployment. Do not clear browser data, recreate the project, alter DNS or change hostnames to apply the update.
+Keep the previous successful deployment available for rollback. Do not clear browser data, recreate the project, alter DNS or change hostnames to apply an update.
 
-This repair has no new environment variables. Keep the working Workers AI binding, model choices, recognition/recipe flags and Turnstile keys unchanged. The target hostname must already be authorized in the existing Turnstile widget. A UI release cannot change account-level hostname authorization.
+15.20.0 adds no environment variables. Keep the Workers AI binding, model choices, recognition and recipe flags, and Turnstile keys unchanged. The target hostname must already be authorized in the existing Turnstile widget; a release cannot change that.
 
-## Upload to Preview
+## Preview first
 
-Cloudflare -> Workers & Pages -> daily-table-nutrition -> Create a new deployment -> Preview -> upload the complete v15.5.1 deployment ZIP. Do not upload the source-and-tests ZIP. Cloudflare supports a ZIP containing the standalone _worker.js.
+Upload the ZIP as a Preview deployment of the production project. The expected `build` on `/api/vision/status` and `/api/recipes/status` is **15.20.0**. An enabled status means configuration exists; it is not a recognition or accuracy test. Preview and Production can need separate bindings and Turnstile hostname permissions.
 
-The expected /api/vision/status and /api/recipes/status build is **15.5.1**. API protocols remain unchanged. An enabled status only means configuration exists; it is not an inference or accuracy test. Preview and Production may require separate environment bindings and Turnstile hostname permissions.
+On the Preview:
 
-## Focused acceptance check
+1. Open My pantry, choose a photo, press Find ingredients, create a recipe. This uses the real provider and may incur its normal charges. No automated test in this repository does this.
+2. Under "Processing details & crop", run **Test security only**.
+3. Save an allergen, repeat with a photo that contains that food, and check the "Left out for this kitchen" list.
+4. Check a phone width, dark mode, and a kitchen saved by the previous release.
 
-1. Open Pantry in Preview, select a permitted food photo and run recognition. This uses the existing provider and may incur its normal charges. It was not performed by this repair.
-2. Confirm a recognized food, or use Confirm clear foods after checking the clear observations. Nothing is preselected on recognition alone; uncertain/unknown/rejected/blocked items are not bulk-confirmed.
-3. A matching recipe's ingredients and complete method should appear immediately under the selection. Do not click Save or type the foods again. If there is no exact recipe, any additional or omitted foods must be disclosed.
-4. Optionally press Add these foods to my kitchen BELOW the recipe. Verify the button says Saved in your kitchen, selections remain checked, the same recipe stays visible and there is no move to manual entry. Reload and confirm that the foods are in the pantry.
-5. Change portions and check quantities. Open Cook step by step. This does not automatically deduct stock or assert that the photo measured quantities.
-6. For AI creation, open the optional AI choice, review the displayed batch amounts, portions and water/equipment choices, and explicitly request a recipe. Verify the full method appears before saving. Save & cook should go directly to the actual cooking interface. Changes to selection must invalidate stale drafts.
-7. Test mobile, dark mode, excluded foods, cancellation and your existing saved kitchen records. Back up the new state before any rollback.
-
-After preview acceptance, upload the same tested ZIP to Production on the same project and permanent hostname. Accept the app's update notice and reopen stale tabs rather than clearing storage.
+After the Preview is accepted, upload the same ZIP to Production. Returning visitors get the app's update notice; they do not need to clear storage.
 
 ## Rollback
 
-Choose the previous successful Cloudflare deployment's rollback action. Keep the current and pre-upgrade kitchen exports separately. No persistent state schema was changed by this repair, but restoring an older backup overwrites later user edits; do not restore one unnecessarily or discard the only current export.
+Read `docs/ROLLBACK.md` first: returning to 15.19.0 locks the kitchens that saved one of the 195 foods 15.20.0 adds, until a build with the larger catalogue is live again. Their data is not deleted. Prefer fixing forward.
 
-## Visual preservation
+## Stored data
 
-Every original image remains byte-identical. Four bundled font binaries are not included in this download; their face/preload/cache entries are removed and the existing device-local fallback font stacks are used. Typography can differ slightly. This is not a photo-removal release.
-
-## Documentation
-
-Cloudflare Direct Upload: https://developers.cloudflare.com/pages/get-started/direct-upload/ (checked 14 October 2026). This reference explains ZIP/standalone Worker support and Preview deployments; it does not establish this user's account configuration or successful live recognition.
+15.20.0 changes no stored data format. A kitchen saved by 15.19.0 or any earlier release opens unchanged, and kitchens that name foods of the October 270-food release open again (`source/tools/compat-test.mjs`, `source/tools/sw-upgrade.mjs`).

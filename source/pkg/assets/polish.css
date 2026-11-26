@@ -1,0 +1,122 @@
+/* The Daily Table 15.20.0 — fixes and refinements. Linked last on every page; every rule is scoped and says what it corrects. */
+
+/* ── My pantry: a chosen photo is the page ───────────────────────────────────────────────────────────────────────────────────────
+   Live build, 390 × 844: after choosing a photo the preview and "Find ingredients" were rendered at y = 2040, under the launch area.
+   The later stages (analyzing, recipe, problem) already hide the launch area; "preparing" and "review" now do the same. */
+body[data-page="pantry/"][data-pantry-stage=preparing] .dt-launch-intro,
+body[data-page="pantry/"][data-pantry-stage=preparing] .dt-launch-options,
+body[data-page="pantry/"][data-pantry-stage=preparing] .dt-launch-bottom,
+body[data-page="pantry/"][data-pantry-stage=preparing] #recipe-suggestions,
+body[data-page="pantry/"][data-pantry-stage=preparing] #ex-profile-host,
+body[data-page="pantry/"][data-pantry-stage=review] .dt-launch-intro,
+body[data-page="pantry/"][data-pantry-stage=review] .dt-launch-options,
+body[data-page="pantry/"][data-pantry-stage=review] .dt-launch-bottom,
+body[data-page="pantry/"][data-pantry-stage=review] #recipe-suggestions,
+body[data-page="pantry/"][data-pantry-stage=review] #ex-profile-host{display:none!important}
+/* the cross-promotion belongs to the start screen only: it used to sit above the title, and above the results on every later stage */
+body[data-page="pantry/"]:not([data-pantry-stage=start]) .gutf-contextual--pantry{display:none!important}
+body[data-page="pantry/"] .gutf-contextual--pantry{margin-top:clamp(22px,4vw,40px)}
+
+/* ── offline page ─────────────────────────────────────────────────────────────────────────────────────────────────────────── */
+body[data-page="offline"]{min-height:100vh;display:grid;place-items:center;padding:20px;background:var(--bg,#faf6ec)}
+body[data-page="offline"] .dt-offline-shell{margin:0 auto;width:100%}
+body[data-page="offline"] .dt-offline-mark{display:block;width:60px;height:60px;margin:0 auto 14px}
+body[data-page="offline"] .dt-offline-mark svg{display:block;width:100%;height:100%}
+body[data-page="offline"] .dt-offline-kicker{margin:0 0 6px;font-size:.74rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--text-soft,#476b54)}
+body[data-page="offline"] .dt-offline-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:0 0 16px}
+body[data-page="offline"] .dt-offline-shell .dt-offline-actions a{min-height:48px;display:inline-flex;align-items:center;padding:0 20px}
+body[data-page="offline"] .dt-offline-shell a.dt-offline-quiet{background:transparent;color:var(--text,#20432f);box-shadow:inset 0 0 0 1.5px #b9cdb6}
+body[data-page="offline"] .dt-offline-shell .dt-offline-note{margin:0 0 6px;font-size:.92rem}
+body[data-page="offline"] .dt-offline-shell .footer-credit{margin:0}
+body[data-page="offline"] .dt-offline-shell .footer-credit a{display:inline-flex;align-items:center;min-height:44px;padding:0 8px;background:none;color:var(--text-soft,#476b54);font-weight:600;text-decoration:underline;text-underline-offset:3px;opacity:1}
+
+/* ── My pantry: while the photo is being identified ─────────────────────────────────────────────────────────────────────────────────
+   Live build, 390 × 844: the screen showed the status and Cancel under the photo, then the "photo prepared" note, "Remove photo and
+   results", a disabled "Find ingredients", a second Cancel, the status again, and only then (y = 800, under the dock) the four real
+   progress steps. One status, one Cancel, and the steps in view. The scanner marks a request in flight with data-scan="on" on the photo card
+   (body.dt-scanning only means "the photo card is open"). */
+#photo-kitchen[data-scan=on] #photo-quality-check,
+#photo-kitchen[data-scan=on] #photo-clear,
+#photo-kitchen[data-scan=on] #photo-analyze,
+#photo-kitchen[data-scan=on] #photo-processing-details,
+#photo-kitchen[data-scan=on] #scan-feedback .scan-feedback-top{display:none!important}
+/* the second Cancel goes only where the first one is really there (a browser without :has() keeps both) */
+#photo-kitchen[data-scan=on]:has(#scan-preview-cancel:not([hidden])) #photo-cancel{display:none!important}
+#photo-kitchen[data-scan=on] #scan-feedback{margin-top:14px}
+
+/* ── text that could not be read ───────────────────────────────────────────────────────────────────────────────────────────────────
+   axe-core on the live build: 16 nodes, 5 elements, all below the 4.5 : 1 minimum. Measured ratio before → after in each line. */
+body[data-page="home"] .dt-demo-ingredient-state{color:#4f6b55}                                   /* 3.96 → 5.9 on #fff */
+body[data-page="home"] .dt-demo-alternatives button small{color:#4f6b55}                          /* 4.31 → 5.5 on #f5f9f2 */
+:root[data-theme="dark"] .gutf-overline{color:#a9c9a0}                                            /* 2.85 → 8.1 on #172e24 */
+:root[data-theme="dark"] body[data-page="home"] .dt-demo-result-type{color:#c7d09d}               /* 2.89 → 8.6 on #1a3021 */
+/* My pantry, dark theme: the saved-allergens line kept its light card while the text took the dark theme's ivory (1.05 : 1, invisible) */
+:root[data-theme="dark"] body[data-page="pantry/"] #pantry-food-safety-status{background:#22382c;border-color:#3d5645;color:#cad9c6}
+/* its "Edit" link was dark green for the light card: 1.5 : 1 on the dark one → 10 : 1 */
+:root[data-theme="dark"] body[data-page="pantry/"] #pantry-food-safety-status .pantry-link,
+:root[data-theme="dark"] body[data-page="pantry/"] #pantry-food-safety-status #pantry-allergen-open{color:#d5e9bb}
+
+/* ── controls too small to tap ────────────────────────────────────────────────────────────────────────────────────────────────────
+   "Apply" in the update notice is the one control every returning visitor has to press to receive a release: it measured 81 × 22. */
+.update-note .text-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 12px}
+body[data-page="home"] .dt-demo-handoff{display:inline-flex;align-items:center;min-height:44px}   /* was 21 px tall */
+
+/* ── My pantry, identifying: one status line ──────────────────────────────────────────────────────────────────────────────────────────
+   The phase was written twice: once over the photo, cut off at 390 px ("AI is identifying visible ingred…"), and once in full directly
+   under it with the elapsed time and Cancel. The frame and beam over the photo stay as the activity indicator. */
+#photo-preview-wrap:has(.scan-preview-toolbar:not([hidden])) .scan-readout{display:none}
+
+/* ── My pantry: foods the kitchen's rules leave out (see patch 35) ─────────────────────────────────────────────────────────────────
+   A calm note, not an error: the rule did what was asked. Text contrast 7.8 : 1 light, 8.5 : 1 dark. */
+.dt-left-out{margin-top:14px;padding:13px 15px;border-radius:14px;border:1px solid #e6d3ad;background:#fbf4e3;color:#4d3d1c;text-align:left}
+.dt-left-out>strong{display:block;font-size:.78rem;letter-spacing:.07em;text-transform:uppercase;color:#6b4e16}
+.dt-left-out ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+.dt-left-out li{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;align-items:start;margin:0;padding:0}
+.dt-left-out-ic{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#fffaf0;box-shadow:inset 0 0 0 1px #ead9b6}
+.dt-left-out-ic svg,.dt-left-out-ic img{width:20px;height:20px;display:block}
+.dt-left-out li b{display:block;font-weight:700;color:#3b2f14}
+.dt-left-out li small{display:block;margin-top:1px;font-size:.84rem;line-height:1.42;color:#5c4a22}
+.dt-left-out p{margin:11px 0 0;font-size:.84rem;line-height:1.45;color:#5c4a22}
+.dt-left-out a{color:#5a3d08;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+:root[data-theme="dark"] .dt-left-out{background:#33301f;border-color:#5c5330;color:#eadfbf}
+:root[data-theme="dark"] .dt-left-out>strong{color:#e7cf8f}
+:root[data-theme="dark"] .dt-left-out-ic{background:#403b26;box-shadow:inset 0 0 0 1px #6a6038}
+:root[data-theme="dark"] .dt-left-out li b{color:#f6eed6}
+:root[data-theme="dark"] .dt-left-out li small,:root[data-theme="dark"] .dt-left-out p{color:#d9cda9}
+:root[data-theme="dark"] .dt-left-out a{color:#f0d58c}
+
+/* ── the kitchen strip on a phone: the last pill fades out instead of being cut ───────────────────────────────────────────────────
+   The strip scrolls sideways (863 px of pills in 354). The pill at the edge was sliced mid-word with nothing to say there is more.
+   The fade is on the strip's host, not a mask on the scroller: a mask would clip the allergen panel, which is fixed-position inside it. */
+@media (max-width:759px){
+  #ex-profile-host{position:relative}
+  #ex-profile-host::after{content:"";position:absolute;top:0;bottom:0;right:0;width:46px;pointer-events:none;background:linear-gradient(90deg,transparent,var(--bg) 80%)}
+}
+
+/* ── Shopping on a phone: the date range reads as a label over its value ──────────────────────────────────────────────────────────
+   In one row the label broke as "Dates & / range" and the value as "Thu 26 Nov – Wed 2 / Dec" (measured 109 × 53 and 134 × 37). */
+@media (max-width:520px){
+  .shop-range-panel>summary{display:grid;grid-template-columns:20px minmax(0,1fr) auto;column-gap:10px;row-gap:1px;align-items:center;padding-block:9px}
+  .shop-range-panel>summary .icon{grid-column:1;grid-row:1/3}
+  .shop-range-panel>summary>span{grid-column:2;grid-row:1;white-space:nowrap}
+  .shop-range-panel>summary>small{grid-column:2;grid-row:2;margin-left:0}
+  .shop-range-panel>summary::after{grid-column:3;grid-row:1/3}
+}
+
+/* ── moving between pages ───────────────────────────────────────────────────────────────────────────────────────────────────────
+   Every page is its own document, so each tap on the dock flashed the whole screen. Where the browser supports it (Chrome 126+,
+   Safari 18.2+) the old page now cross-fades into the new one; the header and dock are the same pixels on both, so they hold still.
+   Other browsers ignore the rule; nothing moves for people who ask for reduced motion. */
+@media (prefers-reduced-motion:no-preference){
+  @view-transition{navigation:auto}
+  ::view-transition-old(root),::view-transition-new(root){animation-duration:.18s}
+}
+
+/* ── a created recipe: each step is its action, then what to watch for ─────────────────────────────────────────────────────────────────
+   Every step used to be one paragraph of up to five sentences. The text is unchanged; the first sentence is the instruction and the rest
+   are set as short notes under it. */
+.pj-steps .pj-step-lead{display:block;font-weight:650;color:var(--text)}
+.pj-steps .pj-step-notes{display:grid;gap:6px;margin-top:8px}
+.pj-steps .pj-step-notes>span{display:block;position:relative;padding-left:16px;font-size:.94em;line-height:1.5;color:var(--text-soft)}
+.pj-steps .pj-step-notes>span::before{content:"";position:absolute;left:2px;top:.62em;width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.5}
+#dt-print-sheet .pj-steps .pj-step-notes{gap:1mm;margin-top:1mm}

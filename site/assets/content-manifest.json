@@ -1,5 +1,5 @@
 {
-  "version": "15.5.1",
+  "version": "15.6.4",
   "base": "/",
   "site": "https://daily-table.gearuptofit.com/",
   "publicPages": 189,
@@ -24,5 +24,7 @@
     "recipe-studio"
   ],
   "aiRecipeProtocol": "1.0.0",
-  "photoProtocol": "3.0.0"
+  "photoProtocol": "3.0.0",
+  "patchBaseline": "15.6.0",
+  "releaseNotes": "15.6.4: missing-ingredient cooking guard; disclosure-on-demand; interaction polish; adaptive WebP optimization"
 }

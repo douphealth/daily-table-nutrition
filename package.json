@@ -1,15 +1,15 @@
 {
   "name": "daily-table-nutrition",
-  "version": "15.5.1",
+  "version": "15.20.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/verify-site.mjs && node tests/security.test.mjs",
-    "test:browser": "python scripts/test_browser.py",
-    "test:http": "python scripts/check_http.py",
-    "test:integrity": "node scripts/verify-site.mjs"
+    "test": "node scripts/verify-site.mjs && node source/tools/package-check.mjs site && node source/tools/rules-test.mjs site && node source/tools/recipe-text-test.mjs site",
+    "test:integrity": "node scripts/verify-site.mjs",
+    "test:worker": "node source/tools/worker-test.mjs site",
+    "manifest": "node scripts/write-manifest.mjs"
   },
-  "description": "The Daily Table v15.5.1 - verified Cloudflare distribution and repair source",
+  "description": "The Daily Table v15.20.0 - Cloudflare Pages distribution, patch pipeline and tests",
   "engines": {
     "node": ">=22"
   }

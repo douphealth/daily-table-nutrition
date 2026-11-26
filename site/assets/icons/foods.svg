@@ -69,4 +69,229 @@
 <symbol id="f-shrimp" viewBox="0 0 64 64"><path d="M52 18c-8-6-22-6-30 4-8 10-4 22 8 24 6 1 12-1 14-5-5 2-12 1-16-3-5-6-2-14 5-18 7-3 14-2 19 4z" fill="#ef8b6a" stroke="#d96a49" stroke-width="2"/><path d="M26 22c-3 6-1 12 4 14M32 20c-2 6 0 12 6 14M38 22c-1 5 1 10 5 12" stroke="#d96a49" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M52 18c4-6 8-8 12-8M50 22c5-3 8-3 12 0" stroke="#d96a49" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M14 46l-8 6 10 1 4-5z" fill="#d96a49"/><circle cx="46" cy="22" r="1.8" fill="#2c2a26"/></symbol>
 <symbol id="f-tunaCanned" viewBox="0 0 64 64"><ellipse cx="32" cy="22" rx="26" ry="10" fill="#c3ccd1"/><path d="M6 22v18c0 6 12 10 26 10s26-4 26-10V22c0 6-12 10-26 10S6 28 6 22z" fill="#d8dde0"/><ellipse cx="32" cy="22" rx="22" ry="7.5" fill="#f0a98a"/><path d="M18 22c4-3 10-4 14-3 5 1 10 2 14 4-4 3-10 4-14 3-5 0-10-1-14-4z" fill="#d96a49" opacity=".6"/><path d="M8 40c0 6 11 10 24 10" stroke="#4a6fa5" stroke-width="4" fill="none" opacity=".75"/><rect x="42" y="12" width="12" height="5" rx="2.5" fill="#c3ccd1" transform="rotate(-12 48 14)"/></symbol>
 <symbol id="f-fruit" viewBox="0 0 64 64"><circle cx="22" cy="40" r="15" fill="#d23d36"/><path d="M22 25c8 0 15 7 15 15 0 7-6 14-15 14 8-8 10-22 0-29z" fill="#8e1f1f" opacity="0.3"/><ellipse cx="15" cy="34" rx="3" ry="6" transform="rotate(18 15 34)" fill="#fff" opacity="0.4"/><path d="M22 25c0-4 2-7 5-8" stroke="#7a4a22" stroke-width="2.4" stroke-linecap="round" fill="none"/><circle cx="43" cy="38" r="13" fill="#f08a2c"/><path d="M43 25c7 0 13 6 13 13 0 6-5 12-13 12 7-7 8-18 0-25z" fill="#d36d14" opacity="0.4"/><ellipse cx="37" cy="33" rx="3" ry="5" transform="rotate(18 37 33)" fill="#fff" opacity="0.4"/><ellipse cx="42" cy="16" rx="7" ry="10" fill="#5f9a3e" transform="rotate(25 42 16)"/><path d="M42 24c0-5 1-9 4-13" stroke="#3f7a2e" stroke-width="1.6" fill="none"/></symbol>
+<symbol id="f-scallion" viewBox="0 0 64 64"><path d="M14 55c15-12 21-25 28-45" fill="none" stroke="#faf7e8" stroke-width="9" stroke-linecap="round"/><path d="M12 55c16-14 23-24 33-43M18 54C35 41 40 25 55 10" fill="none" stroke="#4c9b4c" stroke-width="5" stroke-linecap="round"/><path d="M10 55c11-2 20-3 27-4" fill="none" stroke="#b6d275" stroke-width="3" stroke-linecap="round"/></symbol>
+<symbol id="f-radish" viewBox="0 0 64 64"><path d="M27 20c-10 3-16 12-14 22 1 10 10 14 20 13 13-1 21-11 19-23-2-10-15-17-25-12z" fill="#c63e72"/><path d="M29 23c-9 5-12 11-9 20" stroke="#edabc7" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M29 18c-4-10-9-14-14-14M30 18c8-9 16-11 23-9M30 18C30 8 34 4 38 2" stroke="#588b3d" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M35 55l-6 8" stroke="#d6c8b2" stroke-width="3" stroke-linecap="round"/></symbol>
+<symbol id="f-chiliPepper" viewBox="0 0 64 64"><path d="M19 18c16-10 33 0 33 15 0 14-18 25-43 21 15-5 22-17 20-24-1-5-6-8-10-12z" fill="#d64035"/><path d="M26 24c10-7 19-4 21 5" stroke="#fa9484" stroke-width="3" stroke-linecap="round" fill="none"/><path d="M18 18c3-8 9-11 16-10" stroke="#4b8c3f" stroke-width="5" stroke-linecap="round" fill="none"/></symbol>
+<symbol id="f-jujube" viewBox="0 0 64 64"><ellipse cx="32" cy="37" rx="19" ry="23" fill="#b95030"/><path d="M32 15c13 1 19 11 19 23S44 57 32 60c10-12 11-31 0-45z" fill="#8e402d"/><ellipse cx="23" cy="29" rx="5" ry="9" fill="#f6a982" opacity=".7"/><path d="M32 15c-2-5 1-10 5-12" stroke="#735229" stroke-width="3" stroke-linecap="round" fill="none"/><path d="M34 11c6-6 12-5 15-2-2 7-9 7-15 2z" fill="#4b8c43"/></symbol>
+<symbol id="f-herb" viewBox="0 0 64 64"><path d="M32 56V22" stroke="#4c8a3a" stroke-width="3.2" stroke-linecap="round"/><g fill="#5d9c46"><ellipse cx="22" cy="26" rx="10" ry="4.6" transform="rotate(-28 22 26)"/><ellipse cx="42" cy="26" rx="10" ry="4.6" transform="rotate(28 42 26)"/><ellipse cx="23" cy="36" rx="9" ry="4.2" transform="rotate(-24 23 36)"/><ellipse cx="41" cy="36" rx="9" ry="4.2" transform="rotate(24 41 36)"/><ellipse cx="32" cy="17" rx="4.4" ry="8" fill="#77ad55"/></g><path d="M32 56V30" stroke="#3f7a2e" stroke-width="1.4" opacity="0.5"/></symbol>
+<symbol id="f-root" viewBox="0 0 64 64"><path d="M32 22c8 0 13 8 13 18 0 9-6 16-13 16s-13-7-13-16c0-10 5-18 13-18z" fill="#b8506a"/><path d="M32 22c8 0 13 8 13 18 0 9-6 16-13 16 6-8 6-26 0-34z" fill="#973e56" opacity="0.35"/><path d="M32 22c-1-6-2-10-4-12M32 22c2-6 4-9 6-11M32 22c-3-4-7-6-10-6" stroke="#4c8a3a" stroke-width="2.8" fill="none" stroke-linecap="round"/><ellipse cx="25" cy="34" rx="3.4" ry="2.2" transform="rotate(-40 25 34)" fill="#fff" opacity="0.3"/></symbol>
+<symbol id="f-allium" viewBox="0 0 64 64"><path d="M32 20c6 0 12 7 12 18s-6 16-12 16-12-5-12-16 6-18 12-18z" fill="#f0e2c8"/><path d="M32 20c6 0 12 7 12 18s-6 16-12 16c5-8 5-26 0-34z" fill="#d9c4a2" opacity="0.5"/><path d="M32 20c-1-8 0-12 2-14M32 20c-4-6-8-8-11-8M32 20c4-6 8-8 11-8" stroke="#4c8a3a" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M26 30c2 6 2 12 1 18M38 30c-2 6-2 12-1 18" stroke="#d9c4a2" stroke-width="1.8" fill="none"/></symbol>
+<symbol id="f-cabbage" viewBox="0 0 64 64"><circle cx="32" cy="34" r="20" fill="#9ec46a"/><path d="M32 14c-9 4-14 12-14 20s5 16 14 20c-6-10-6-30 0-40z" fill="#86ad55" opacity="0.6"/><path d="M32 15c6 6 8 14 8 20s-2 14-8 18" stroke="#c7dd9c" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M24 18c-3 8-3 24 1 32M42 20c3 8 3 22-1 30" stroke="#c7dd9c" stroke-width="2" fill="none" stroke-linecap="round"/><ellipse cx="22" cy="24" rx="4" ry="2.4" transform="rotate(-30 22 24)" fill="#fff" opacity="0.3"/></symbol>
+<symbol id="f-stem" viewBox="0 0 64 64"><g stroke="#5d9c46" stroke-width="6" stroke-linecap="round"><path d="M22 50V18"/><path d="M32 52V14"/><path d="M42 50V20"/></g><g fill="#4c8a3a"><path d="M22 18c-4-3-6-6-6-9 4 1 6 4 6 9z"/><path d="M32 14c-3-4-4-8-3-11 3 3 4 7 3 11z"/><path d="M42 20c4-3 6-6 6-9-4 1-6 4-6 9z"/></g><g fill="#86b96a"><path d="M22 50c-2 3-5 4-8 4 2-3 5-4 8-4z"/><path d="M42 50c2 3 5 4 8 4-2-3-5-4-8-4z"/></g></symbol>
+<symbol id="f-gourd" viewBox="0 0 64 64"><path d="M32 14c3 0 5 2 5 5 8 1 14 8 14 18 0 11-8 18-19 18s-19-7-19-18c0-10 6-17 14-18 0-3 2-5 5-5z" fill="#dd8235"/><path d="M32 14c3 0 5 2 5 5 8 1 14 8 14 18 0 11-8 18-19 18 7-9 7-33 0-41z" fill="#bf6a26" opacity="0.35"/><path d="M32 22v32M23 24c-4 8-4 20 0 28M41 24c4 8 4 20 0 28" stroke="#f0a862" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M32 14c0-4 1-6 3-7" stroke="#4c8a3a" stroke-width="3" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="f-legumeCooked" viewBox="0 0 64 64"><path d="M10 32h44a4 4 0 0 1 0 8c-2 12-10 16-22 16S12 52 10 40a4 4 0 0 1 0-8z" fill="#f3ead2"/><path d="M10 32h44a4 4 0 0 1 0 8H10a4 4 0 0 1 0-8z" fill="#e6d9ba"/><g fill="#b8925e"><ellipse cx="24" cy="36" rx="4" ry="3"/><ellipse cx="33" cy="35" rx="4" ry="3"/><ellipse cx="42" cy="36" rx="3.6" ry="2.8"/><ellipse cx="29" cy="40" rx="3.4" ry="2.6"/><ellipse cx="38" cy="41" rx="3" ry="2.4"/></g></symbol>
+<symbol id="f-seed" viewBox="0 0 64 64"><g fill="#c9a06a"><ellipse cx="24" cy="38" rx="7" ry="10" transform="rotate(-18 24 38)"/><ellipse cx="40" cy="38" rx="7" ry="10" transform="rotate(18 40 38)"/><ellipse cx="32" cy="25" rx="6.4" ry="9" fill="#dcb87e"/></g><path d="M24 31c1 4 1 9 0 13M40 31c-1 4-1 9 0 13M32 18v13" stroke="#a67c46" stroke-width="1.5" stroke-linecap="round" fill="none"/></symbol>
+<symbol id="f-fruitRound" viewBox="0 0 64 64"><circle cx="32" cy="36" r="19" fill="#e08a4a"/><path d="M32 17c11 0 19 8 19 19s-8 19-19 19c8-8 8-30 0-38z" fill="#c46f34" opacity="0.3"/><path d="M32 18c0-5 3-8 8-9" stroke="#4c8a3a" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="38" cy="14" rx="6" ry="3.2" transform="rotate(-24 38 14)" fill="#5d9c46"/><ellipse cx="24" cy="28" rx="4" ry="2.6" transform="rotate(-30 24 28)" fill="#fff" opacity="0.35"/></symbol>
+<symbol id="f-grapes" viewBox="0 0 64 64"><g fill="#7a4b8f"><circle cx="24" cy="24" r="6"/><circle cx="36" cy="22" r="6"/><circle cx="44" cy="30" r="6"/><circle cx="18" cy="34" r="6"/><circle cx="30" cy="32" r="6"/><circle cx="40" cy="42" r="6"/><circle cx="24" cy="44" r="6"/><circle cx="32" cy="50" r="5"/></g><path d="M32 18c0-4 3-7 7-8" stroke="#4c8a3a" stroke-width="2.6" fill="none" stroke-linecap="round"/><ellipse cx="28" cy="22" rx="1.8" ry="1.2" fill="#fff" opacity="0.5"/></symbol>
+<symbol id="f-melon" viewBox="0 0 64 64"><path d="M32 14c12 0 20 10 20 22s-9 16-20 16-20-4-20-16 8-22 20-22z" fill="#4f8f4a"/><path d="M32 20c9 0 15 8 15 16s-7 11-15 11-15-3-15-11 6-16 15-16z" fill="#f08a92"/><g fill="#2f2f2f"><ellipse cx="26" cy="30" rx="1.6" ry="2.6"/><ellipse cx="38" cy="30" rx="1.6" ry="2.6"/><ellipse cx="32" cy="38" rx="1.6" ry="2.6"/><ellipse cx="24" cy="40" rx="1.4" ry="2.2"/><ellipse cx="40" cy="40" rx="1.4" ry="2.2"/></g></symbol>
+<symbol id="f-pineapple" viewBox="0 0 64 64"><path d="M32 22c9 0 15 8 15 18s-7 16-15 16-15-6-15-16 6-18 15-18z" fill="#e0a83c"/><g stroke="#c88c28" stroke-width="1.6" opacity="0.8"><path d="M20 32l24 12M44 32 20 44M26 26l12 26M38 26 26 52"/></g><g fill="#4c8a3a"><path d="M32 22c-1-8-6-11-10-11 2 5 4 9 10 11z"/><path d="M32 22c1-8 6-11 10-11-2 5-4 9-10 11z"/><path d="M32 22c0-9 2-13 4-15-1 6-1 11-4 15z"/></g></symbol>
+<symbol id="f-berry" viewBox="0 0 64 64"><g fill="#b3375a"><circle cx="24" cy="26" r="6"/><circle cx="36" cy="24" r="6"/><circle cx="42" cy="34" r="6"/><circle cx="18" cy="36" r="6"/><circle cx="30" cy="34" r="6.5"/><circle cx="36" cy="44" r="6"/><circle cx="24" cy="44" r="6"/></g><g fill="#d9617f"><circle cx="26" cy="24" r="1.6"/><circle cx="32" cy="32" r="1.6"/><circle cx="38" cy="34" r="1.4"/></g><path d="M32 18c0-4 3-7 7-8" stroke="#4c8a3a" stroke-width="2.4" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="f-meat" viewBox="0 0 64 64"><path d="M16 20c10-6 26-6 32 2 7 9 2 22-8 25-11 4-24 0-27-9-3-8 0-15 3-18z" fill="#b85c4e"/><path d="M16 20c10-6 26-6 32 2 7 9 2 22-8 25-11 4-24 0-27-9-3-8 0-15 3-18z" fill="#a04b3f" opacity="0.22"/><path d="M24 27c6 3 9 10 6 16M33 24c7 2 11 8 10 15" stroke="#e7c3b6" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="24" cy="24" rx="5" ry="2.6" transform="rotate(-24 24 24)" fill="#fff" opacity="0.3"/></symbol>
+<symbol id="f-sausage" viewBox="0 0 64 64"><rect x="10" y="24" width="26" height="16" rx="8" fill="#b5573f"/><rect x="30" y="24" width="26" height="16" rx="8" fill="#c4644a"/><path d="M20 24v16M40 24v16" stroke="#8f4030" stroke-width="1.6" opacity="0.55"/><ellipse cx="18" cy="29" rx="5" ry="2" fill="#fff" opacity="0.28"/></symbol>
+<symbol id="f-fishCan" viewBox="0 0 64 64"><rect x="12" y="20" width="40" height="28" rx="4" fill="#cfd7dc"/><rect x="12" y="20" width="40" height="7" rx="3.5" fill="#b9c4ca"/><rect x="16" y="29" width="32" height="15" rx="2" fill="#5b86a0"/><path d="M24 36c3-4 9-4 12 0-3 4-9 4-12 0z" fill="#eaf3f7"/><circle cx="27" cy="36" r="1" fill="#3f6379"/></symbol>
+<symbol id="f-fishSteak" viewBox="0 0 64 64"><path d="M12 32c10-14 28-16 40-6 4 3 4 9 0 12-12 10-30 8-40-6z" fill="#8fb6c9"/><path d="M12 32c10-14 28-16 40-6 4 3 4 9 0 12-12 10-30 8-40-6z" fill="#6f9cb3" opacity="0.25"/><path d="M20 28c6 2 9 5 10 8M30 24c6 3 9 7 10 12M42 24c4 3 6 6 6 9" stroke="#e8f2f6" stroke-width="2.4" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="f-shellfish" viewBox="0 0 64 64"><path d="M32 12c12 0 20 10 20 22 0 10-9 18-20 18s-20-8-20-18c0-12 8-22 20-22z" fill="#6f7f9a"/><path d="M32 12c12 0 20 10 20 22 0 10-9 18-20 18 7-10 7-30 0-40z" fill="#56657e" opacity="0.4"/><path d="M32 18v28M22 22c4 8 4 16 0 22M42 22c-4 8-4 16 0 22" stroke="#cfd8e6" stroke-width="1.8" fill="none" stroke-linecap="round" opacity="0.7"/></symbol>
+<symbol id="f-cheese" viewBox="0 0 64 64"><path d="M10 40 32 18l22 12v14a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3z" fill="#f2cf74"/><path d="M10 40 32 18l22 12-22 6z" fill="#f8e2a0"/><circle cx="24" cy="40" r="3.4" fill="#e0b352"/><circle cx="38" cy="44" r="2.6" fill="#e0b352"/><circle cx="46" cy="38" r="2" fill="#e0b352"/><path d="M10 40v-2l22-20v4z" fill="#e5bd60"/></symbol>
+<symbol id="f-butter" viewBox="0 0 64 64"><path d="M12 30h40v18a3 3 0 0 1-3 3H15a3 3 0 0 1-3-3z" fill="#f5d98a"/><path d="M12 30 22 22h40l-10 8z" fill="#fbeaa8"/><path d="M52 30l10-8v18l-10 8z" fill="#e7c569"/><path d="M22 22h40l-10 8H12z" fill="#fdf3c8"/><rect x="20" y="34" width="24" height="3" rx="1.5" fill="#fff" opacity="0.45"/></symbol>
+<symbol id="f-sauce" viewBox="0 0 64 64"><path d="M27 12h10v6l6 6v26a4 4 0 0 1-4 4H25a4 4 0 0 1-4-4V24l6-6z" fill="#5f7f5a"/><path d="M27 12h10v4H27z" fill="#3f5c3c"/><rect x="23" y="28" width="18" height="14" rx="2" fill="#f3ead2"/><rect x="26" y="32" width="12" height="2.4" rx="1.2" fill="#5f7f5a"/><rect x="26" y="37" width="8" height="2" rx="1" fill="#9aa88f"/><ellipse cx="26" cy="24" rx="2" ry="5" fill="#fff" opacity="0.28"/></symbol>
+<symbol id="f-grain" viewBox="0 0 64 64"><path d="M16 26h32l-3 26a4 4 0 0 1-4 3H23a4 4 0 0 1-4-3z" fill="#e2d2b0"/><path d="M16 26h32l-1 8H17z" fill="#cbb894"/><path d="M24 20c0-4 4-7 8-7s8 3 8 7" stroke="#a8906a" stroke-width="3" fill="none" stroke-linecap="round"/><g fill="#b89a6c"><circle cx="26" cy="40" r="2.2"/><circle cx="34" cy="44" r="2.2"/><circle cx="39" cy="38" r="2"/><circle cx="29" cy="48" r="1.8"/></g></symbol>
+<symbol id="f-noodle" viewBox="0 0 64 64"><circle cx="32" cy="34" r="20" fill="#f0d79a"/><g stroke="#d8b467" stroke-width="3" fill="none" stroke-linecap="round"><path d="M16 32c6-8 26-8 32 0M16 38c6 8 26 8 32 0M20 26c6-6 18-6 24 0M20 44c6 6 18 6 24 0"/></g><path d="M40 18c4-6 10-8 12-6" stroke="#c9a45c" stroke-width="2.6" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="f-breadLoaf" viewBox="0 0 64 64"><path d="M12 30c0-8 6-14 20-14s20 6 20 14v16a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4z" fill="#d9a45e"/><path d="M12 30c0-8 6-14 20-14s20 6 20 14c-4-4-11-6-20-6s-16 2-20 6z" fill="#e8bc7c"/><path d="M22 24c2 4 2 8 1 12M32 21c2 4 2 8 1 12M42 24c2 4 2 8 1 12" stroke="#b8843f" stroke-width="2.4" fill="none" stroke-linecap="round"/></symbol>
+<symbol id="f-nut" viewBox="0 0 64 64"><path d="M32 12c11 0 19 8 19 20s-8 20-19 20-19-8-19-20 8-20 19-20z" fill="#c99a63"/><path d="M32 12c11 0 19 8 19 20s-8 20-19 20c8-9 9-31 0-40z" fill="#a87b48" opacity="0.35"/><path d="M32 15c-4 7-4 27 0 34" stroke="#8a6238" stroke-width="2.4" fill="none" stroke-linecap="round"/><ellipse cx="24" cy="24" rx="3.4" ry="2.2" transform="rotate(-34 24 24)" fill="#fff" opacity="0.4"/></symbol>
+<symbol id="f-spice" viewBox="0 0 64 64"><rect x="17" y="20" width="30" height="34" rx="5" fill="#e9dcc4"/><rect x="17" y="20" width="30" height="34" rx="5" fill="#c9a877" opacity="0.18"/><rect x="20" y="14" width="24" height="8" rx="2.4" fill="#8a6a45"/><rect x="21" y="30" width="22" height="15" rx="2" fill="#b8562f"/><circle cx="26" cy="37" r="1.6" fill="#f6e6cd"/><circle cx="32" cy="40" r="1.5" fill="#f6e6cd"/><circle cx="37" cy="35" r="1.4" fill="#f6e6cd"/><ellipse cx="23" cy="27" rx="2.4" ry="6" fill="#fff" opacity="0.35"/></symbol>
+<symbol id="f-parsley" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-cilantro" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-dill" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-mint" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-basil" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-thyme" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-rosemary" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-oregano" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-sage" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-bayLeaf" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-chives" viewBox="0 0 64 64"><use href="#f-herb"/></symbol>
+<symbol id="f-ginger" viewBox="0 0 64 64"><use href="#f-root"/></symbol>
+<symbol id="f-leek" viewBox="0 0 64 64"><use href="#f-allium"/></symbol>
+<symbol id="f-shallot" viewBox="0 0 64 64"><use href="#f-allium"/></symbol>
+<symbol id="f-cabbage" viewBox="0 0 64 64"><use href="#f-cabbage"/></symbol>
+<symbol id="f-redCabbage" viewBox="0 0 64 64"><use href="#f-cabbage"/></symbol>
+<symbol id="f-napaCabbage" viewBox="0 0 64 64"><use href="#f-cabbage"/></symbol>
+<symbol id="f-bokChoy" viewBox="0 0 64 64"><use href="#f-cabbage"/></symbol>
+<symbol id="f-arugula" viewBox="0 0 64 64"><use href="#f-greens"/></symbol>
+<symbol id="f-watercress" viewBox="0 0 64 64"><use href="#f-greens"/></symbol>
+<symbol id="f-chard" viewBox="0 0 64 64"><use href="#f-greens"/></symbol>
+<symbol id="f-asparagus" viewBox="0 0 64 64"><use href="#f-stem"/></symbol>
+<symbol id="f-fennel" viewBox="0 0 64 64"><use href="#f-stem"/></symbol>
+<symbol id="f-beetroot" viewBox="0 0 64 64"><use href="#f-root"/></symbol>
+<symbol id="f-turnip" viewBox="0 0 64 64"><use href="#f-root"/></symbol>
+<symbol id="f-parsnip" viewBox="0 0 64 64"><use href="#f-root"/></symbol>
+<symbol id="f-celeriac" viewBox="0 0 64 64"><use href="#f-root"/></symbol>
+<symbol id="f-pumpkin" viewBox="0 0 64 64"><use href="#f-gourd"/></symbol>
+<symbol id="f-brusselsSprouts" viewBox="0 0 64 64"><use href="#f-cabbage"/></symbol>
+<symbol id="f-okra" viewBox="0 0 64 64"><use href="#f-stem"/></symbol>
+<symbol id="f-snowPeas" viewBox="0 0 64 64"><use href="#f-stem"/></symbol>
+<symbol id="f-edamame" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-beanSprouts" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-shiitake" viewBox="0 0 64 64"><use href="#f-mushroom"/></symbol>
+<symbol id="f-oysterMushroom" viewBox="0 0 64 64"><use href="#f-mushroom"/></symbol>
+<symbol id="f-portobello" viewBox="0 0 64 64"><use href="#f-mushroom"/></symbol>
+<symbol id="f-pumpkinSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-sunflowerSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-sesameSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-chiaSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-flaxSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-hempSeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-poppySeeds" viewBox="0 0 64 64"><use href="#f-seed"/></symbol>
+<symbol id="f-pear" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-peach" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-nectarine" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-plum" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-apricot" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-cherries" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-grapes" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-watermelon" viewBox="0 0 64 64"><use href="#f-melon"/></symbol>
+<symbol id="f-melon" viewBox="0 0 64 64"><use href="#f-melon"/></symbol>
+<symbol id="f-pineapple" viewBox="0 0 64 64"><use href="#f-pineapple"/></symbol>
+<symbol id="f-mango" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-papaya" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-kiwi" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-fig" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-dates" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-raisins" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-prunes" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-driedApricots" viewBox="0 0 64 64"><use href="#f-grapes"/></symbol>
+<symbol id="f-pomegranate" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-grapefruit" viewBox="0 0 64 64"><use href="#f-orange"/></symbol>
+<symbol id="f-lime" viewBox="0 0 64 64"><use href="#f-lemon"/></symbol>
+<symbol id="f-tangerine" viewBox="0 0 64 64"><use href="#f-orange"/></symbol>
+<symbol id="f-persimmon" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-passionFruit" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-guava" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-lychee" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-coconut" viewBox="0 0 64 64"><use href="#f-fruitRound"/></symbol>
+<symbol id="f-raspberries" viewBox="0 0 64 64"><use href="#f-berry"/></symbol>
+<symbol id="f-blackberries" viewBox="0 0 64 64"><use href="#f-berry"/></symbol>
+<symbol id="f-cranberries" viewBox="0 0 64 64"><use href="#f-berry"/></symbol>
+<symbol id="f-gooseberries" viewBox="0 0 64 64"><use href="#f-berry"/></symbol>
+<symbol id="f-turkey" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-lamb" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-pork" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-bacon" viewBox="0 0 64 64"><use href="#f-sausage"/></symbol>
+<symbol id="f-ham" viewBox="0 0 64 64"><use href="#f-sausage"/></symbol>
+<symbol id="f-sausage" viewBox="0 0 64 64"><use href="#f-sausage"/></symbol>
+<symbol id="f-duck" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-veal" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-steak" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-liver" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-sardines" viewBox="0 0 64 64"><use href="#f-fishCan"/></symbol>
+<symbol id="f-anchovies" viewBox="0 0 64 64"><use href="#f-fishCan"/></symbol>
+<symbol id="f-mackerel" viewBox="0 0 64 64"><use href="#f-fishSteak"/></symbol>
+<symbol id="f-trout" viewBox="0 0 64 64"><use href="#f-fishSteak"/></symbol>
+<symbol id="f-tunaSteak" viewBox="0 0 64 64"><use href="#f-fishSteak"/></symbol>
+<symbol id="f-halibut" viewBox="0 0 64 64"><use href="#f-fishSteak"/></symbol>
+<symbol id="f-squid" viewBox="0 0 64 64"><use href="#f-shellfish"/></symbol>
+<symbol id="f-mussels" viewBox="0 0 64 64"><use href="#f-shellfish"/></symbol>
+<symbol id="f-clams" viewBox="0 0 64 64"><use href="#f-shellfish"/></symbol>
+<symbol id="f-scallops" viewBox="0 0 64 64"><use href="#f-shellfish"/></symbol>
+<symbol id="f-crab" viewBox="0 0 64 64"><use href="#f-shellfish"/></symbol>
+<symbol id="f-tempeh" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-seitan" viewBox="0 0 64 64"><use href="#f-meat"/></symbol>
+<symbol id="f-ricotta" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-creamCheese" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-cottageCheese" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-sourCream" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-heavyCream" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-butter" viewBox="0 0 64 64"><use href="#f-butter"/></symbol>
+<symbol id="f-ghee" viewBox="0 0 64 64"><use href="#f-butter"/></symbol>
+<symbol id="f-paneer" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-halloumi" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-brie" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-blueCheese" viewBox="0 0 64 64"><use href="#f-cheese"/></symbol>
+<symbol id="f-kefir" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-buttermilk" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-plantMilk" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-bulgur" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-barley" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-farro" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-millet" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-buckwheat" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-polenta" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-noodles" viewBox="0 0 64 64"><use href="#f-noodle"/></symbol>
+<symbol id="f-riceNoodles" viewBox="0 0 64 64"><use href="#f-noodle"/></symbol>
+<symbol id="f-gnocchi" viewBox="0 0 64 64"><use href="#f-noodle"/></symbol>
+<symbol id="f-flour" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-breadcrumbs" viewBox="0 0 64 64"><use href="#f-grain"/></symbol>
+<symbol id="f-sourdough" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-baguette" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-bagel" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-naan" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-crackers" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-ryeBread" viewBox="0 0 64 64"><use href="#f-breadLoaf"/></symbol>
+<symbol id="f-kidneyBeans" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-pintoBeans" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-navyBeans" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-favaBeans" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-mungBeans" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-blackEyedPeas" viewBox="0 0 64 64"><use href="#f-legumeCooked"/></symbol>
+<symbol id="f-cashews" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-pistachios" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-hazelnuts" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-pecans" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-pineNuts" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-brazilNuts" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-peanuts" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-almondButter" viewBox="0 0 64 64"><use href="#f-nut"/></symbol>
+<symbol id="f-sesameOil" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-coconutOil" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-sunflowerOil" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-avocadoOil" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-soySauce" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-tamari" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-fishSauce" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-oysterSauce" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-vinegar" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-balsamicVinegar" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-mustard" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-ketchup" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-mayonnaise" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-hummus" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-pesto" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-salsa" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-tomatoPaste" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-sunDriedTomatoes" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-capers" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-pickles" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-sauerkraut" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-kimchi" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-miso" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-nori" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-coconutMilk" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-stock" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-mapleSyrup" viewBox="0 0 64 64"><use href="#f-sauce"/></symbol>
+<symbol id="f-sugar" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-brownSugar" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-salt" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-blackPepper" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-paprika" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-cumin" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-corianderSeed" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-cinnamon" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-nutmeg" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-cardamom" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-cloves" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-saffron" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-chiliFlakes" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-curryPowder" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-garamMasala" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-turmeric" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-zaatar" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-sumac" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-garlicPowder" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-onionPowder" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-vanilla" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-cocoa" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-darkChocolate" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-nutritionalYeast" viewBox="0 0 64 64"><use href="#f-spice"/></symbol>
+<symbol id="f-meat" viewBox="0 0 64 64"><use href="#f-undefined"/></symbol>
+<symbol id="f-cheese" viewBox="0 0 64 64"><use href="#f-undefined"/></symbol>
 </svg>

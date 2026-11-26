@@ -1,0 +1,13 @@
+{
+  "name": "daily-table-tools",
+  "private": true,
+  "type": "module",
+  "description": "Build, verification and test tooling for The Daily Table (not deployed).",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "lighthouse": "^12.0.0",
+    "playwright-core": "^1.50.0",
+    "sharp": "^0.34.0",
+    "@axe-core/playwright": "^4.10.0"
+  }
+}

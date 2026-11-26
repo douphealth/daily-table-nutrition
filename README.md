@@ -2,85 +2,83 @@
 
 Mediterranean meal planning, pantry matching, optional photo recognition and ingredient-constrained recipe creation. Personal kitchens are browser-local; optional AI requests use the configured Cloudflare Worker with consent and security checks.
 
-**Imported release: 15.5.1.** This repository preserves the complete verified application payload, not just a ZIP uploaded as an opaque file.
+**Release in `site/`: 15.20.0.** It is the production package 15.19.0 plus the anchored patches in `source/pkg/patches20/`.
+
+**Status on 2026-11-26.** The production site reported build 15.20.0 on its status endpoints, and 41 of 41 key files (pages, scripts, styles, data, service worker) fetched from it matched `site/` byte for byte. Production is a Cloudflare Pages project that is updated by uploading a ZIP; nothing in this repository deploys to it.
 
 ## Project contents
 
 | Path | Purpose |
 | --- | --- |
-| `site/` | Complete prebuilt Cloudflare Pages deployment: 861 files, including 645 images |
-| `site/assets/chunks/photo-journey-15.5.1.js` | Readable photo selection and immediate-recipe flow |
-| `site/assets/site.js` | Shipped application bundle, including the corrected photo-save transaction |
-| `site/_worker.js` | Shipped optional photo, recipe and security API Worker |
-| `tests/` | Worker/security and fixture-backed browser regression tests |
-| `scripts/` | Integrity checks, browser/HTTP tests and original snapshot reconstruction tools |
-| `reference/` | Source/deployment hashes and original reconstruction manifest |
-| `changes/`, `baseline/` | Focused v15.5-to-v15.5.1 repair sources and comparison baseline |
-| `evidence/` | Supplied release evidence and locally rerunnable checks |
+| `site/` | Complete prebuilt Cloudflare Pages deployment: 880 files, including 645 images |
+| `source/pkg/build.mjs` | The build: a shipped package in, ordered patches, release stamp, service-worker list, release manifest out |
+| `source/pkg/patches20/` | The 15.20.0 patches, one concern each, with the measured defect in the header of each file |
+| `source/pkg/gen/` | The ingredient knowledge base (`catalog.mjs`: 269 foods, names, allergens, diets) and the food icons |
+| `source/pkg/assets/` | Readable sources that the patches insert (`polish.css`) |
+| `source/tools/` | Tests and measurement scripts |
+| `reference/site-v15.20.0-manifest.json` | SHA-256 of every file in `site/`, and of the upload ZIP |
+| `scripts/` | `verify-site.mjs` (integrity check) and `write-manifest.mjs` |
+| `docs/` | `CHANGELOG.md`, `VALIDATION.md`, `ROLLBACK.md`, before/after boards |
 
-The original author's complete pre-bundle source project was not supplied. Unchanged modules remain their released bundles. This is an honest source-and-distribution snapshot, not a reconstructed framework project.
+The 15.7 to 15.19 releases were made as edits to the shipped bundle and uploaded directly, so the shipped package is their only source. The pipeline here therefore starts from a shipped package and fails loudly, naming the file and the string, if the code a patch touches has moved.
 
-## Validate and run
+## Validate
 
-Requires Node.js 22 or newer. No npm runtime dependencies or installation step are required for the Node tests.
+Requires Node.js 22 or newer. No installation step.
 
 ```sh
 npm test
 ```
 
-This verifies every deployment file against its SHA-256 and executes 44 Worker/security checks with simulated external services. It does not call a paid AI model.
+This checks every file in `site/` against its SHA-256 (880 files), then runs 22 package checks, 7 kitchen-rule groups (allergens, diets, strict labels, names in English and Greek) and 5 recipe-text groups. It calls no network service and no AI model.
 
-For a local static preview, using Python 3:
-
-```sh
-python -m http.server 8080 --directory site
-```
-
-Open `http://localhost:8080`. The Python server does not execute `_worker.js`; online photo/recipe APIs require the correctly configured Cloudflare environment. Do not interpret local static API failures as production verification.
-
-Browser regression dependencies and commands:
+The Worker and security scenarios need one image library:
 
 ```sh
-python -m pip install -r requirements-dev.txt
-python -m playwright install chromium
-npm run test:browser
-npm run test:http
+cd source/tools && npm ci && cd ../..
+npm run test:worker
 ```
 
-See `VALIDATION.md` for the original test boundaries. Tests use explicit infrastructure fixtures, not production AI accuracy measurements.
+That runs 32 scenarios against `site/_worker.js` with simulated AI and security services.
 
-## Deployable release
+The browser suites (photo to recipe, typed foods, site flows, accessibility, responsive sweep, upgrade from the previous release) are in `source/tools/` and are driven by `run-audit.ps1`. They need Google Chrome, the dependencies above, and two inputs that are not in this repository: the 15.19.0 package and an unbundled 15.5.0 build that the tests use to seed kitchens (`source/v15/`). They were run on these exact bytes before the import; the results, and what they do not cover, are in `docs/VALIDATION.md`. They were not re-run from this repository layout.
 
-`site/` is already built. Deploy only its contents using the existing project's established Cloudflare upload workflow. Do not upload this whole repository as the website.
+## Rebuild
 
-The baseline deployment ZIP is `daily-table-v15.5.1-cloudflare-upload.zip`, SHA-256:
+Put the 15.19.0 package (879 files) in a folder outside `site/`, then:
+
+```sh
+node source/pkg/build.mjs --base <15.19.0 folder> --out <new folder> --version 15.20.0 --patches source/pkg/patches20
+```
+
+Run from this layout, that produced 880 of 880 files identical to `site/`. Do not build into, or from inside, the output folder.
+
+## Deploy
+
+`site/` is already built. Upload only its contents. Do not upload this whole repository as the website.
+
+The upload ZIP is `daily-table-v15.20.0-cloudflare-upload.zip`, SHA-256:
 
 ```text
-c747526e0dabbd0d34234039c83f280d62b28597ade3a2b683a823e2610b03d4
+ec59b1d7c5b5aebe67d903640dc27f4cfb6107da454b175dd567733d3cc64f6b
 ```
 
-All 861 `site/` files are verified byte-for-byte against it. Git attributes disable newline conversion to preserve these bytes on Windows.
+All 880 `site/` files are byte-identical to its contents. Git attributes disable newline conversion to keep those bytes on Windows. Read `UPGRADE.md` and `docs/ROLLBACK.md` before a deployment or a rollback.
 
-There is intentionally **no automatic deployment workflow**, no new billing configuration, and no copied credentials. Creating or pushing this repository does not update Cloudflare. Read `UPGRADE.md` before a separate preview or production deployment.
+## What a push to this repository does
 
-## Initial GitHub publication
+A second Cloudflare Pages project, `the-daily-table-nutrition`, is connected to this repository. It builds every pushed branch and publishes the **repository root**, so the app appears there under `/site/` next to these documents. That copy is not the production site and is not a tested deployment. A push is not authorization to change Production, DNS, provider settings, billing or security.
 
-Run `Publish-Daily-Table.cmd` on Windows (or `node Publish-Daily-Table.mjs` from any terminal). The PowerShell wrapper forwards to the same Node publisher and **does not use `Get-FileHash`**. The publisher requires Git, GitHub CLI and Node.js 22+. Run `node Publish-Daily-Table.mjs --verify-only` for a GitHub-free integrity check. It authenticates through GitHub's browser flow when needed, verifies the account is `douphealth`, validates this snapshot, creates a **private** `douphealth/daily-table-nutrition` repository if absent, pushes `main` and `v15.5.1`, and compares the remote Git tree with every local tracked file.
+## What is not verified
 
-It does not force-push, overwrite a different repository history, create a public repository, send credentials in chat, or deploy the app. An existing populated repository with a different commit stops the process for review. The repository is not remotely created until this publisher actually succeeds.
+Every automated test uses scripted stand-ins for the AI models and for Cloudflare Turnstile. Recognition accuracy, real latency and the live security path are not measured by anything in this repository. No recipe was cooked. See `docs/VALIDATION.md` for the full list.
 
 ## Safety and rights
 
 Allergens remain hard exclusions; dislikes affect ranking. Photo suggestions require human confirmation. AI recipe outputs remain validated. No hidden-allergen guarantee, invented nutrient value, medical prescription or perfect recognition claim is made.
 
-Existing images retain their supplied credits and illustrative status; no new license or ownership claim is added. No new blanket open-source license has been chosen. Preserve third-party notices and review redistribution rights before making the repository public.
+Existing images retain their supplied credits and illustrative status; no new license or ownership claim is added. No blanket open-source license has been chosen. Preserve third-party notices and review redistribution rights.
 
-## Provenance
+## History
 
-The exact editable snapshot was `daily-table-v15.5.1-source-and-tests.zip`, SHA-256:
-
-```text
-2c1938c96b9f0501431d0cb9cadfaacfa205bebe6e65897e15fcee09026d7cef
-```
-
-The original release README is retained at `docs/SOURCE-README.md`. Repository preparation changes only project documentation, validation and publication helpers; the application payload remains unchanged.
+The first import, 15.5.1, with its repair sources, evidence and tests, is at tag `v15.5.1`. Until this release the `main` branch held that import plus three later commits to the pantry photo flow. The 15.7 to 15.19 production releases were never committed to it; 15.20.0 replaces `site/` with the lineage that was in production.

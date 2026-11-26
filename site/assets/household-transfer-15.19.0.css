@@ -1,0 +1,37 @@
+/* The Daily Table v15.17: privacy-first household portability and diagnostics */
+.dt-transfer-panel{padding:clamp(18px,3vw,32px);background:linear-gradient(137deg,var(--surface),var(--bg-tint));border:1px solid var(--line-strong);border-radius:var(--r-xl,30px);box-shadow:var(--sh-1);margin-bottom:24px;color:var(--text)}
+.dt-transfer-eyebrow{font-size:.72rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--forest-600);margin:0 0 8px}
+.dt-transfer-panel h3{font-size:clamp(1.4rem,3vw,2rem);line-height:1.12;letter-spacing:-.03em;margin:0 0 10px;color:var(--text)}
+.dt-transfer-panel p{max-width:70ch;margin:8px 0;color:var(--text-soft);line-height:1.55}
+.dt-transfer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.dt-transfer-card{border:1px solid var(--line-strong);border-radius:16px;background:var(--surface);padding:18px;display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0}
+.dt-transfer-card strong{color:var(--text);font-size:1.06rem}
+.dt-transfer-card .dt-transfer-small{font-size:.86rem;line-height:1.5;color:var(--text-soft);margin:0 0 8px}
+.dt-transfer-card .btn{margin-top:auto;max-width:100%;white-space:normal;text-align:center;justify-content:center}
+.dt-transfer-upload input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.dt-transfer-upload:focus-within{outline:3px solid var(--focus);outline-offset:4px}
+.dt-transfer-note{padding:12px 15px;background:var(--bg-sunken);border-radius:12px;font-size:.87rem;max-width:none!important}
+.dt-transfer-status{min-height:24px;margin-top:12px!important;font-weight:600}
+.dt-transfer-status[data-tone=error]{color:var(--danger)}
+.dt-transfer-review{border-top:1px solid var(--line-strong);margin-top:18px;padding-top:18px}
+.dt-transfer-review h4{font-size:1.1rem;margin:0 0 8px;color:var(--text)}
+.dt-transfer-ack{display:flex;gap:10px;align-items:flex-start;margin:18px 0 14px;line-height:1.5;color:var(--text)}
+.dt-transfer-ack input{width:18px;height:18px;flex:none;margin:3px 0 0}
+.dt-transfer-actions{display:flex;flex-wrap:wrap;gap:10px}
+.dt-transfer-health{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;border-top:1px solid var(--line-strong);padding-top:18px;margin-top:18px}
+.dt-transfer-health-results{width:100%;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.dt-transfer-health-results p{max-width:none;margin:6px 0;font-size:.88rem}
+@media(max-width:700px){.dt-transfer-grid{grid-template-columns:1fr}.dt-transfer-panel{padding:20px 15px}.dt-transfer-card{padding:16px}.dt-transfer-actions>*{flex:1}}
+@media(prefers-reduced-motion:reduce){.dt-transfer-panel,.dt-transfer-card{transition:none!important}}
+@media print{.dt-transfer-panel{display:none!important}}
+/* v15.18: visibly separate encrypted and readable exports; no password persistence. */
+.dt-transfer-passwords{display:grid;gap:8px;width:100%;margin:2px 0 8px}
+.dt-transfer-passwords label,.dt-transfer-unlock label{display:grid;gap:5px;width:100%;font-size:.83rem;font-weight:700;color:var(--text)}
+.dt-transfer-passwords input,.dt-transfer-unlock input{width:100%;max-width:100%;min-height:44px;padding:10px 12px;border:1px solid var(--line-strong);border-radius:10px;background:var(--surface);color:var(--text);font:inherit}
+.dt-transfer-passwords input:focus-visible,.dt-transfer-unlock input:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.dt-transfer-privacy{font-size:.78rem!important;line-height:1.45;color:var(--text-soft);margin:0!important}
+.dt-transfer-secondary{font-size:.82rem!important;margin-top:0!important}
+.dt-transfer-unlock{width:100%;display:grid;gap:10px;margin:16px 0;padding:16px;border:1px solid var(--line-strong);border-radius:14px;background:var(--surface)}
+.dt-transfer-unlock[hidden]{display:none}
+.dt-transfer-unlock .btn{justify-self:start}
+@media(max-width:700px){.dt-transfer-unlock .btn{width:100%}.dt-transfer-passwords input{font-size:16px}}
